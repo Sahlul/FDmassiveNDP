@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FDmassiveNDP">
         <activity
+            android:name=".tambahresep"
+            android:exported="false" />
+        <activity
+            android:name=".resepsaya"
+            android:exported="false" />
+        <activity
+            android:name=".history"
+            android:exported="false" />
+        <activity
+            android:name=".profil"
+            android:exported="false" />
+        <activity
             android:name=".makanan_dan_minuman4"
             android:exported="false" />
         <activity
