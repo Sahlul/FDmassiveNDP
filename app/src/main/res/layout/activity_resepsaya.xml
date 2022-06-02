@@ -7,6 +7,21 @@
     tools:context=".resepsaya"
     android:background="@color/bckround">
 
+    <Button
+        android:id="@+id/tulisresep"
+        android:layout_width="167dp"
+        android:layout_height="43dp"
+        android:backgroundTint="@color/button"
+        android:text="@string/tlisres"
+        android:textColor="#000000"
+        android:textSize="16dp"
+        app:cornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.793" />
+
     <ImageView
         android:id="@+id/imageView6"
         android:layout_width="wrap_content"
@@ -139,17 +154,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.644" />
-
-    <ImageView
-        android:id="@+id/imageView27"
-        android:layout_width="158dp"
-        android:layout_height="29dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.726"
-        app:srcCompat="@drawable/tlisresep" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

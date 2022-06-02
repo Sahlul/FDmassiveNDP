@@ -115,9 +115,10 @@
         app:srcCompat="@drawable/img" />
 
     <ImageView
-        android:id="@+id/imageView25"
+        android:id="@+id/tersimpan"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="@color/bckround"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.164"
@@ -126,10 +127,11 @@
         app:layout_constraintVertical_bias="0.271"
         app:srcCompat="@drawable/tersimpan2" />
 
-    <ImageView
-        android:id="@+id/imageView28"
+    <ImageButton
+        android:id="@+id/historis"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="@color/bckround"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.585"
@@ -138,10 +140,11 @@
         app:layout_constraintVertical_bias="0.271"
         app:srcCompat="@drawable/history2" />
 
-    <ImageView
-        android:id="@+id/imageView30"
+    <ImageButton
+        android:id="@+id/mieaceh"
         android:layout_width="324dp"
         android:layout_height="166dp"
+        android:background="@color/bckround"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.563"
@@ -150,11 +153,12 @@
         app:layout_constraintVertical_bias="0.435"
         app:srcCompat="@drawable/mieaceh" />
 
-    <ImageView
-        android:id="@+id/imageView32"
+    <ImageButton
+        android:id="@+id/spghtsaustmt"
         android:layout_width="324dp"
         android:layout_height="166dp"
         android:layout_marginEnd="4dp"
+        android:background="@color/bckround"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.59"
