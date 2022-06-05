@@ -51,7 +51,7 @@ public class resep_lontong_medan extends AppCompatActivity {
         "5.Telur balado - 8 butir\n"+
         "6.Rendang daging beserta bumbunya - 8 potong\n"+
         "7.Kerupuk merah - secukupnya",
-
+" "+
                 "Langkah Membuat :\n"+
         "1.Panaskan minyak, tumis bumbu halus beserta daun jeruk, daun salam, dan daun kunyit sampai wangi.\n"+
         "2.Masukkan wortel dan labu siam, aduk sampai layu\n"+

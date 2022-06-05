@@ -2,5 +2,8 @@
     <string name="app_name">FDmassiveNDP</string>
     <string name="awal">Temukan Resep Minuman dan Makanan Tradisional Maupun Modern</string>
     <string name="tlisres">Tulis resep</string>
+    <string name="lntgmedan">Lontong Medan</string>
+    <string name="stomedan">Soto Medan</string>
+    <string name="rspterbru">Resep Terbaru</string>
 
 </resources>
