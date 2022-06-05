@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FDmassiveNDP">
         <activity
+            android:name=".resep_lontong_medan"
+            android:exported="false" />
+        <activity
             android:name=".tambahresep"
             android:exported="false" />
         <activity
