@@ -61,7 +61,7 @@
         app:layout_constraintVertical_bias="0.22" />
 
     <ImageButton
-        android:id="@+id/rekomendasi1"
+        android:id="@+id/bhanpilihan"
         android:layout_width="312dp"
         android:layout_height="120dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -73,7 +73,7 @@
         app:srcCompat="@drawable/ikan" />
 
     <ImageButton
-        android:id="@+id/makdanmin"
+        android:id="@+id/rspmakdanmin"
         android:layout_width="312dp"
         android:layout_height="120dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -106,7 +106,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.226"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/makdanmin"
+        app:layout_constraintTop_toBottomOf="@+id/rspmakdanmin"
         app:layout_constraintVertical_bias="0.586"
         app:srcCompat="@drawable/burger" />
 
@@ -119,8 +119,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.945"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/makdanmin"
-        app:layout_constraintVertical_bias="0.25"
+        app:layout_constraintTop_toBottomOf="@+id/rspmakdanmin"
+        app:layout_constraintVertical_bias="0.229"
         app:srcCompat="@drawable/sambal" />
 
     <ImageView

@@ -4,11 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class makanan_dan_minuman4 extends AppCompatActivity {
+public class resep_ikan_kakap extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_makanan_dan_minuman4);
+        setContentView(R.layout.activity_resep_ikan_kakap);
     }
 }

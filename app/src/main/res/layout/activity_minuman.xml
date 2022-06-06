@@ -4,8 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".makanan_dan_minuman3"
+    tools:context=".minuman"
     android:background="@color/bckround">
+
 
     <ImageView
         android:id="@+id/imageView8"
@@ -33,7 +34,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.098" />
 
-
     <TextView
         android:id="@+id/textView10"
         android:layout_width="131dp"
@@ -43,85 +43,86 @@
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.192"
+        app:layout_constraintHorizontal_bias="0.196"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.178" />
+        app:layout_constraintVertical_bias="0.212" />
+
 
     <TextView
         android:id="@+id/textView12"
         android:layout_width="wrap_content"
         android:layout_height="17dp"
-        android:text="Makanan Tradisional"
+        android:text="Minuman Tradisional"
         android:textColor="#000000"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.192"
+        app:layout_constraintHorizontal_bias="0.107"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.278" />
+        app:layout_constraintVertical_bias="0.295" />
 
     <ImageView
-        android:id="@+id/imageView7"
+        android:id="@+id/imageView9"
         android:layout_width="231dp"
-        android:layout_height="179dp"
+        android:layout_height="184dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.311"
+        app:layout_constraintHorizontal_bias="0.166"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.427"
-        app:srcCompat="@drawable/makanan_tradisional" />
+        app:layout_constraintVertical_bias="0.446"
+        app:srcCompat="@drawable/minuman2" />
 
     <ImageView
-        android:id="@+id/imageView13"
-        android:layout_width="92dp"
-        android:layout_height="179dp"
+        android:id="@+id/imageView10"
+        android:layout_width="81dp"
+        android:layout_height="181dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.896"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.427"
-        app:srcCompat="@drawable/makanan_tradisional2" />
+        app:layout_constraintVertical_bias="0.443"
+        app:srcCompat="@drawable/minuman_tradisoinal" />
 
     <TextView
         android:id="@+id/textView13"
         android:layout_width="wrap_content"
         android:layout_height="17dp"
-        android:text="Makana Moderen"
+        android:text="Minuman Moderen"
         android:textColor="#000000"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.185"
+        app:layout_constraintHorizontal_bias="0.102"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.614" />
+        app:layout_constraintVertical_bias="0.654" />
 
     <ImageView
-        android:id="@+id/imageView14"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/imageView11"
+        android:layout_width="241dp"
+        android:layout_height="172dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.3"
+        app:layout_constraintHorizontal_bias="0.176"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.86"
-        app:srcCompat="@drawable/makanan_moderen" />
+        app:layout_constraintVertical_bias="0.905"
+        app:srcCompat="@drawable/minuman_moderen" />
 
     <ImageView
-        android:id="@+id/imageView15"
-        android:layout_width="92dp"
-        android:layout_height="179dp"
+        android:id="@+id/imageView12"
+        android:layout_width="81dp"
+        android:layout_height="171dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.896"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.86"
-        app:srcCompat="@drawable/makanan_moderen2" />
+        app:layout_constraintVertical_bias="0.903"
+        app:srcCompat="@drawable/minuman_moderen2" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

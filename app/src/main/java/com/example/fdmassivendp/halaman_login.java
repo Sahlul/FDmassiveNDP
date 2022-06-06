@@ -28,7 +28,7 @@ public class halaman_login extends AppCompatActivity {
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(halaman_login.this,resep_lontong_medan.class));
+                startActivity(new Intent(halaman_login.this,home_screen.class));
             }
         });
 

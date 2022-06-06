@@ -33,8 +33,8 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.654" />
 
-    <ImageView
-        android:id="@+id/imageView2"
+    <ImageButton
+        android:id="@+id/resepminuman"
         android:layout_width="312dp"
         android:layout_height="179dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -42,7 +42,7 @@
         app:layout_constraintHorizontal_bias="0.464"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/searchView"
-        app:layout_constraintVertical_bias="0.194"
+        app:layout_constraintVertical_bias="0.161"
         app:srcCompat="@drawable/minuman" />
 
     <TextView
@@ -54,21 +54,22 @@
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.132"
+        app:layout_constraintHorizontal_bias="0.135"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.322" />
+        app:layout_constraintVertical_bias="0.305" />
 
-    <ImageView
-        android:id="@+id/imageView3"
+    <ImageButton
+        android:id="@+id/resepmakanan"
         android:layout_width="312dp"
         android:layout_height="179dp"
+        android:background="@color/bckround"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.464"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2"
-        app:layout_constraintVertical_bias="0.264"
+        app:layout_constraintTop_toBottomOf="@+id/resepminuman"
+        app:layout_constraintVertical_bias="0.527"
         app:srcCompat="@drawable/makndmni" />
 
     <ImageView

@@ -5,5 +5,7 @@
     <string name="lntgmedan">Lontong Medan</string>
     <string name="stomedan">Soto Medan</string>
     <string name="rspterbru">Resep Terbaru</string>
+    <string name="rspikankkp">Resep Ikan Kakap</string>
+    <string name="rsptempe">Resep Tempe</string>
 
 </resources>
