@@ -19,7 +19,7 @@
         app:srcCompat="@drawable/tamabahkanpotoresep" />
 
     <EditText
-        android:id="@+id/username2"
+        android:id="@+id/regusername"
         android:layout_width="265dp"
         android:layout_height="42dp"
         android:background="@drawable/backform"
@@ -33,7 +33,7 @@
 
 
     <EditText
-        android:id="@+id/username3"
+        android:id="@+id/regemail"
         android:layout_width="265dp"
         android:layout_height="88dp"
         android:background="@drawable/backform"
@@ -47,7 +47,7 @@
 
 
     <EditText
-        android:id="@+id/username4"
+        android:id="@+id/regnohandphone"
         android:layout_width="262dp"
         android:layout_height="111dp"
         android:background="@drawable/backform"
@@ -62,7 +62,7 @@
 
 
     <EditText
-        android:id="@+id/username5"
+        android:id="@+id/regpassword"
         android:layout_width="261dp"
         android:layout_height="117dp"
         android:background="@drawable/backform"

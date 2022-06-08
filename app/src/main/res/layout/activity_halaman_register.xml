@@ -8,7 +8,7 @@
     tools:context=".halaman_register">
 
     <Button
-        android:id="@+id/login2"
+        android:id="@+id/btndaftar"
         android:layout_width="277dp"
         android:layout_height="54dp"
         android:backgroundTint="@color/button"
@@ -64,11 +64,12 @@
         app:layout_constraintVertical_bias="0.701" />
 
     <EditText
-        android:id="@+id/username6"
+        android:id="@+id/regpassword2"
         android:layout_width="293dp"
         android:layout_height="44dp"
         android:background="@drawable/backform"
         android:backgroundTint="#FFFFFF"
+        android:inputType="textPassword|textWebPassword"
         app:cornerRadius="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -78,11 +79,12 @@
         app:layout_constraintVertical_bias="0.777" />
 
     <EditText
-        android:id="@+id/username4"
+        android:id="@+id/regnohandphone"
         android:layout_width="293dp"
         android:layout_height="44dp"
         android:background="@drawable/backform"
         android:backgroundTint="#FFFFFF"
+        android:inputType="phone"
         app:cornerRadius="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -106,11 +108,12 @@
         app:layout_constraintVertical_bias="0.294" />
 
     <EditText
-        android:id="@+id/username2"
+        android:id="@+id/regusername"
         android:layout_width="293dp"
         android:layout_height="44dp"
         android:background="@drawable/backform"
         android:backgroundTint="#FFFFFF"
+        android:inputType="textPersonName"
         app:cornerRadius="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -120,11 +123,12 @@
         app:layout_constraintVertical_bias="0.212" />
 
     <EditText
-        android:id="@+id/username5"
+        android:id="@+id/regpassword"
         android:layout_width="293dp"
         android:layout_height="44dp"
         android:background="@drawable/backform"
         android:backgroundTint="#FFFFFF"
+        android:inputType="textWebPassword"
         app:cornerRadius="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -134,11 +138,12 @@
         app:layout_constraintVertical_bias="0.633" />
 
     <EditText
-        android:id="@+id/username3"
+        android:id="@+id/regemail"
         android:layout_width="293dp"
         android:layout_height="44dp"
         android:background="@drawable/backform"
         android:backgroundTint="#FFFFFF"
+        android:inputType="textEmailSubject"
         app:cornerRadius="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

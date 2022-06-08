@@ -13,6 +13,7 @@
         android:layout_height="44dp"
         android:background="@drawable/backform"
         android:backgroundTint="#FFFFFF"
+        android:inputType="textWebPassword"
         app:cornerRadius="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -65,7 +66,7 @@
         android:id="@+id/textView2"
         android:layout_width="131dp"
         android:layout_height="24dp"
-        android:text="Username"
+        android:text="Email"
         android:textColor="#000000"
         android:textSize="17sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -76,11 +77,12 @@
         app:layout_constraintVertical_bias="0.434" />
 
     <EditText
-        android:id="@+id/username"
+        android:id="@+id/emaillog"
         android:layout_width="293dp"
         android:layout_height="44dp"
         android:background="@drawable/backform"
         android:backgroundTint="#FFFFFF"
+        android:inputType="textEmailSubject"
         app:cornerRadius="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
