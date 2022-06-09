@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.fdmassivendp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label=""
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FDmassiveNDP">
+        <activity
+            android:name=".sambunganresepterbaru"
+            android:exported="false" />
+        <activity
+            android:name=".sambunganreseptempe"
+            android:exported="false" />
+        <activity
+            android:name=".sambunganresepikankakap"
+            android:exported="false" />
+        <activity
+            android:name=".resep_jamur_tiram"
+            android:exported="false" />
+        <activity
+            android:name=".resep_tempe"
+            android:exported="false" />
+        <activity
+            android:name=".resep_ikan_kakap"
+            android:exported="false" />
+        <activity
+            android:name=".resep_terbaru"
+            android:exported="false" />
+        <activity
+            android:name=".resep_lontong_medan"
+            android:exported="false" />
+        <activity
+            android:name=".tambahresep"
+            android:exported="false" />
+        <activity
+            android:name=".resepsaya"
+            android:exported="false" />
+        <activity
+            android:name=".history"
+            android:exported="false" />
+        <activity
+            android:name=".profil"
+            android:exported="false" />
+        <activity
+            android:name=".bahan_pilihan"
+            android:exported="false" />
+        <activity
+            android:name=".makanan"
+            android:exported="false" />
+        <activity
+            android:name=".minuman"
+            android:exported="false" />
+        <activity
+            android:name=".makanan_dan_minuman"
+            android:exported="false" />
+        <activity
+            android:name=".home_screen"
+            android:exported="false" />
+        <activity
+            android:name=".halaman_register"
+            android:exported="false" />
+        <activity
+            android:name=".halaman_login"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
