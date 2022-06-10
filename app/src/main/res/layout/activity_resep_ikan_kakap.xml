@@ -7,9 +7,14 @@
     android:background="@color/bckround"
     tools:context=".resep_ikan_kakap">
 
+<<<<<<< HEAD
 
     <TextView
         android:id="@+id/textView24"
+=======
+    <TextView
+        android:id="@+id/textView23"
+>>>>>>> 81eb6daf8a6abe4b87d261ec2b0491f4643b5e65
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/rspikankkp"
@@ -17,6 +22,7 @@
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+<<<<<<< HEAD
         app:layout_constraintHorizontal_bias="0.156"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -67,11 +73,22 @@
         android:id="@+id/imageView18"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+=======
+        app:layout_constraintHorizontal_bias="0.146"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.201" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="324dp"
+        android:layout_height="539dp"
+>>>>>>> 81eb6daf8a6abe4b87d261ec2b0491f4643b5e65
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+<<<<<<< HEAD
         app:layout_constraintVertical_bias="0.437"
         app:srcCompat="@drawable/backgroundputih" />
 
@@ -196,4 +213,7 @@
         app:srcCompat="@drawable/Vector" />
 
 
+=======
+        app:layout_constraintVertical_bias="0.978" />
+>>>>>>> 81eb6daf8a6abe4b87d261ec2b0491f4643b5e65
 </androidx.constraintlayout.widget.ConstraintLayout>

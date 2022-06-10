@@ -2,20 +2,29 @@
   <library name="Gradle: androidx.viewpager2:viewpager2:1.0.0@aar">
     <ANNOTATIONS>
       <root url="jar://$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-7.0.2-bin/caches/transforms-3/f31d7f5d1be27fa8858c3529ba0a329d/transformed/viewpager2-1.0.0/annotations.zip!/" />
+<<<<<<< HEAD
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/f31d7f5d1be27fa8858c3529ba0a329d/transformed/viewpager2-1.0.0/annotations.zip!/" />
+=======
+>>>>>>> 81eb6daf8a6abe4b87d261ec2b0491f4643b5e65
     </ANNOTATIONS>
     <CLASSES>
       <root url="file://$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-7.0.2-bin/caches/transforms-3/f31d7f5d1be27fa8858c3529ba0a329d/transformed/viewpager2-1.0.0/res" />
       <root url="file://$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-7.0.2-bin/caches/transforms-3/f31d7f5d1be27fa8858c3529ba0a329d/transformed/viewpager2-1.0.0/AndroidManifest.xml" />
       <root url="jar://$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-7.0.2-bin/caches/transforms-3/f31d7f5d1be27fa8858c3529ba0a329d/transformed/viewpager2-1.0.0/jars/classes.jar!/" />
+<<<<<<< HEAD
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/f31d7f5d1be27fa8858c3529ba0a329d/transformed/viewpager2-1.0.0/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/f31d7f5d1be27fa8858c3529ba0a329d/transformed/viewpager2-1.0.0/AndroidManifest.xml" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/f31d7f5d1be27fa8858c3529ba0a329d/transformed/viewpager2-1.0.0/jars/classes.jar!/" />
+=======
+>>>>>>> 81eb6daf8a6abe4b87d261ec2b0491f4643b5e65
     </CLASSES>
     <JAVADOC />
     <SOURCES>
       <root url="jar://$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-7.0.2-bin/caches/modules-2/files-2.1/androidx.viewpager2/viewpager2/1.0.0/3c3569044e6969f1ee5c3aa03b08e6717a2d782f/viewpager2-1.0.0-sources.jar!/" />
+<<<<<<< HEAD
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.viewpager2/viewpager2/1.0.0/3c3569044e6969f1ee5c3aa03b08e6717a2d782f/viewpager2-1.0.0-sources.jar!/" />
+=======
+>>>>>>> 81eb6daf8a6abe4b87d261ec2b0491f4643b5e65
     </SOURCES>
   </library>
 </component>

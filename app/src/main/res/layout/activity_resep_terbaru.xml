@@ -7,6 +7,7 @@
     android:background="@color/bckround"
     tools:context=".resep_terbaru">
 
+<<<<<<< HEAD
     <ImageView
         android:id="@+id/imageView6"
         android:layout_width="wrap_content"
@@ -33,6 +34,8 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.113" />
 
+=======
+>>>>>>> 81eb6daf8a6abe4b87d261ec2b0491f4643b5e65
 
     <TextView
         android:id="@+id/textView25"
@@ -43,11 +46,16 @@
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+<<<<<<< HEAD
         app:layout_constraintHorizontal_bias="0.146"
+=======
+        app:layout_constraintHorizontal_bias="0.079"
+>>>>>>> 81eb6daf8a6abe4b87d261ec2b0491f4643b5e65
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.191" />
 
+<<<<<<< HEAD
     <ImageView
         android:id="@+id/imageView32"
         android:layout_width="wrap_content"
@@ -126,5 +134,16 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.864" />
 
+=======
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="324dp"
+        android:layout_height="539dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.978" />
+>>>>>>> 81eb6daf8a6abe4b87d261ec2b0491f4643b5e65
 
 </androidx.constraintlayout.widget.ConstraintLayout>

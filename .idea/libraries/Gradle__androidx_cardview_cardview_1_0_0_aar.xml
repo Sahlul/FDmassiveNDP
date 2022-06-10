@@ -4,14 +4,20 @@
       <root url="file://$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-7.0.2-bin/caches/transforms-3/8cfe277b6c0dbed7faa9157a001659d3/transformed/cardview-1.0.0/AndroidManifest.xml" />
       <root url="jar://$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-7.0.2-bin/caches/transforms-3/8cfe277b6c0dbed7faa9157a001659d3/transformed/cardview-1.0.0/jars/classes.jar!/" />
       <root url="file://$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-7.0.2-bin/caches/transforms-3/8cfe277b6c0dbed7faa9157a001659d3/transformed/cardview-1.0.0/res" />
+<<<<<<< HEAD
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/8cfe277b6c0dbed7faa9157a001659d3/transformed/cardview-1.0.0/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/8cfe277b6c0dbed7faa9157a001659d3/transformed/cardview-1.0.0/AndroidManifest.xml" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/8cfe277b6c0dbed7faa9157a001659d3/transformed/cardview-1.0.0/jars/classes.jar!/" />
+=======
+>>>>>>> 81eb6daf8a6abe4b87d261ec2b0491f4643b5e65
     </CLASSES>
     <JAVADOC />
     <SOURCES>
       <root url="jar://$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-7.0.2-bin/caches/modules-2/files-2.1/androidx.cardview/cardview/1.0.0/c9f3ce7ca74ad2c978230f4094ba6804c5166f9c/cardview-1.0.0-sources.jar!/" />
+<<<<<<< HEAD
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.cardview/cardview/1.0.0/c9f3ce7ca74ad2c978230f4094ba6804c5166f9c/cardview-1.0.0-sources.jar!/" />
+=======
+>>>>>>> 81eb6daf8a6abe4b87d261ec2b0491f4643b5e65
     </SOURCES>
   </library>
 </component>

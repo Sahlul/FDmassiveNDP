@@ -4,9 +4,12 @@
       <root url="jar://$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-7.0.2-bin/caches/transforms-3/36bf181a1168369966fef10526868075/transformed/play-services-safetynet-17.0.0/jars/classes.jar!/" />
       <root url="file://$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-7.0.2-bin/caches/transforms-3/36bf181a1168369966fef10526868075/transformed/play-services-safetynet-17.0.0/res" />
       <root url="file://$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-7.0.2-bin/caches/transforms-3/36bf181a1168369966fef10526868075/transformed/play-services-safetynet-17.0.0/AndroidManifest.xml" />
+<<<<<<< HEAD
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/36bf181a1168369966fef10526868075/transformed/play-services-safetynet-17.0.0/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/36bf181a1168369966fef10526868075/transformed/play-services-safetynet-17.0.0/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/36bf181a1168369966fef10526868075/transformed/play-services-safetynet-17.0.0/AndroidManifest.xml" />
+=======
+>>>>>>> 81eb6daf8a6abe4b87d261ec2b0491f4643b5e65
     </CLASSES>
     <JAVADOC />
     <SOURCES />

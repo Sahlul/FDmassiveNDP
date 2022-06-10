@@ -11,6 +11,7 @@
         <entry key="..\:/Users/user/AndroidStudioProjects/FDmassiveNDP/app/src/main/res/layout/activity_profil.xml" value="0.15" />
         <entry key="..\:/Users/user/AndroidStudioProjects/FDmassiveNDP/app/src/main/res/layout/activity_resepsaya.xml" value="0.25" />
         <entry key="..\:/Users/user/AndroidStudioProjects/FDmassiveNDP/app/src/main/res/layout/activity_tambahresep.xml" value="0.17074275362318841" />
+<<<<<<< HEAD
         <entry key="..\:/Users/user/AndroidStudioProjects/FDmassiveNDPChangesHacker-master/app/src/main/res/layout/activity_history.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/user/AndroidStudioProjects/FDmassiveNDPChangesHacker-master/app/src/main/res/layout/activity_makanan.xml" value="0.25" />
         <entry key="..\:/Users/user/AndroidStudioProjects/FDmassiveNDPChangesHacker-master/app/src/main/res/layout/activity_makanan_dan_minuman.xml" value="0.25" />
@@ -23,6 +24,8 @@
         <entry key="..\:/Users/user/AndroidStudioProjects/FDmassiveNDPChangesHacker-master/app/src/main/res/layout/activity_sambunganreseptempe.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/user/AndroidStudioProjects/FDmassiveNDPChangesHacker-master/app/src/main/res/layout/activity_sambunganresepterbaru.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/user/AndroidStudioProjects/FDmassiveNDPChangesHacker-master/app/src/main/res/layout/sambunganresepikan.xml" value="0.17074275362318841" />
+=======
+>>>>>>> 81eb6daf8a6abe4b87d261ec2b0491f4643b5e65
         <entry key="..\:/Users/user/FDmassiveNDPChangesHacker/app/src/main/res/drawable/spaghetti.xml" value="0.345" />
         <entry key="..\:/Users/user/FDmassiveNDPChangesHacker/app/src/main/res/layout/activity_bahan_pilihan.xml" value="0.2563405797101449" />
         <entry key="..\:/Users/user/FDmassiveNDPChangesHacker/app/src/main/res/layout/activity_halaman_login.xml" value="0.18642350557244175" />

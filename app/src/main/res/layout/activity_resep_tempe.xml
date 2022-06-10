@@ -21,6 +21,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.2" />
 
+<<<<<<< HEAD
     <ImageView
         android:id="@+id/imageView6"
         android:layout_width="wrap_content"
@@ -66,11 +67,17 @@
         android:id="@+id/imageView18"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+=======
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="324dp"
+        android:layout_height="539dp"
+>>>>>>> 81eb6daf8a6abe4b87d261ec2b0491f4643b5e65
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+<<<<<<< HEAD
         app:layout_constraintVertical_bias="0.437"
         app:srcCompat="@drawable/backgroundputih" />
 
@@ -198,5 +205,8 @@
         app:layout_constraintVertical_bias="0.893"
         app:srcCompat="@drawable/Vector" />
 
+=======
+        app:layout_constraintVertical_bias="0.978" />
+>>>>>>> 81eb6daf8a6abe4b87d261ec2b0491f4643b5e65
 
 </androidx.constraintlayout.widget.ConstraintLayout>
