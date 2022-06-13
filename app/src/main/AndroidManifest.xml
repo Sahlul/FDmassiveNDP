@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FDmassiveNDP">
         <activity
-<<<<<<< HEAD
+
             android:name=".sambunganresepterbaru"
             android:exported="false" />
         <activity
@@ -20,8 +20,6 @@
             android:name=".sambunganresepikankakap"
             android:exported="false" />
         <activity
-=======
->>>>>>> 81eb6daf8a6abe4b87d261ec2b0491f4643b5e65
             android:name=".resep_jamur_tiram"
             android:exported="false" />
         <activity

@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".makanan"
-    android:background="@color/bckround">
+    android:background="@color/bckround"
+    tools:context=".makanan">
 
     <ImageView
         android:id="@+id/imageView8"
@@ -62,33 +62,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.278" />
 
-<<<<<<< HEAD
-=======
-    <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="231dp"
-        android:layout_height="179dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.311"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.427"
-        app:srcCompat="@drawable/makanan_tradisional" />
-
-    <ImageView
-        android:id="@+id/imageView13"
-        android:layout_width="92dp"
-        android:layout_height="179dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.427"
-        app:srcCompat="@drawable/makanan_tradisional2" />
-
->>>>>>> 81eb6daf8a6abe4b87d261ec2b0491f4643b5e65
     <TextView
         android:id="@+id/textView13"
         android:layout_width="wrap_content"
@@ -103,22 +76,17 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.614" />
 
-    <ImageView
-<<<<<<< HEAD
-        android:id="@+id/imageView7"
-=======
-        android:id="@+id/imageView14"
->>>>>>> 81eb6daf8a6abe4b87d261ec2b0491f4643b5e65
+    <ImageButton
+        android:id="@+id/makanantradisional"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-<<<<<<< HEAD
-        app:layout_constraintHorizontal_bias="0.311"
+        app:layout_constraintHorizontal_bias="0.3"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.427"
-        app:srcCompat="@drawable/ikantradisional" />
+        app:srcCompat="@drawable/karkan" />
 
     <ImageView
         android:id="@+id/imageView13"
@@ -130,46 +98,30 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.427"
-        app:srcCompat="@drawable/tdr2" />
+        app:srcCompat="@drawable/gado2" />
 
     <ImageView
-        android:id="@+id/imageView34"
+        android:id="@+id/imageView14"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.311"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.86"
-        app:srcCompat="@drawable/tdr3" />
-
-    <ImageView
-        android:id="@+id/imageView40"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-=======
         app:layout_constraintHorizontal_bias="0.3"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.86"
-        app:srcCompat="@drawable/makanan_moderen" />
+        app:srcCompat="@drawable/kakped" />
 
     <ImageView
         android:id="@+id/imageView15"
-        android:layout_width="92dp"
-        android:layout_height="179dp"
->>>>>>> 81eb6daf8a6abe4b87d261ec2b0491f4643b5e65
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.86"
-<<<<<<< HEAD
-        app:srcCompat="@drawable/tdr4" />
-=======
-        app:srcCompat="@drawable/makanan_moderen2" />
->>>>>>> 81eb6daf8a6abe4b87d261ec2b0491f4643b5e65
+        app:srcCompat="@drawable/dern" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

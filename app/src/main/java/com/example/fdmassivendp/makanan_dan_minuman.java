@@ -1,11 +1,11 @@
 package com.example.fdmassivendp;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class makanan_dan_minuman extends AppCompatActivity {
 
@@ -19,17 +19,19 @@ public class makanan_dan_minuman extends AppCompatActivity {
         resepminuman.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(makanan_dan_minuman.this,minuman.class));
+                startActivity(new Intent(makanan_dan_minuman.this, minuman.class));
             }
         });
+
 
         ImageButton resepmakanan;
         resepmakanan = findViewById(R.id.resepmakanan);
         resepmakanan.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(makanan_dan_minuman.this,makanan.class));
+                startActivity(new Intent(makanan_dan_minuman.this, makanan.class));
             }
         });
+
     }
 }
