@@ -2,18 +2,10 @@
   <library name="Gradle: androidx.lifecycle:lifecycle-common:2.4.0">
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-7.0.2-bin/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.4.0/1fdb7349701e9cf2f0a69fc10642b6fef6bb3e12/lifecycle-common-2.4.0.jar!/" />
-<<<<<<< HEAD
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.4.0/1fdb7349701e9cf2f0a69fc10642b6fef6bb3e12/lifecycle-common-2.4.0.jar!/" />
-=======
->>>>>>> 81eb6daf8a6abe4b87d261ec2b0491f4643b5e65
     </CLASSES>
     <JAVADOC />
     <SOURCES>
       <root url="jar://$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-7.0.2-bin/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.4.0/29609e3d01eaafd06c688c5366154174cf686c12/lifecycle-common-2.4.0-sources.jar!/" />
-<<<<<<< HEAD
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.4.0/29609e3d01eaafd06c688c5366154174cf686c12/lifecycle-common-2.4.0-sources.jar!/" />
-=======
->>>>>>> 81eb6daf8a6abe4b87d261ec2b0491f4643b5e65
     </SOURCES>
   </library>
 </component>

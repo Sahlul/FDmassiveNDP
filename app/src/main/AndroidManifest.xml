@@ -10,7 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FDmassiveNDP">
         <activity
-
+            android:name=".makanan_tradisional"
+            android:exported="false" />
+        <activity
             android:name=".sambunganresepterbaru"
             android:exported="false" />
         <activity

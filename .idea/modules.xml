@@ -4,12 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/FDmassiveNDP.iml" filepath="$PROJECT_DIR$/.idea/modules/FDmassiveNDP.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/FDmassiveNDP.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/FDmassiveNDP.app.iml" />
-<<<<<<< HEAD
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/FDmassiveNDP.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/FDmassiveNDP.app.androidTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/FDmassiveNDP.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/FDmassiveNDP.app.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/FDmassiveNDP.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/FDmassiveNDP.app.unitTest.iml" />
-=======
->>>>>>> 81eb6daf8a6abe4b87d261ec2b0491f4643b5e65
     </modules>
   </component>
 </project>

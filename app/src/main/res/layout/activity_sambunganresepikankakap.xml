@@ -72,7 +72,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.295"
-        app:srcCompat="@drawable/Vector" />
+        app:srcCompat="@drawable/vector" />
 
     <ImageView
         android:id="@+id/imageView19"
@@ -137,7 +137,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.687"
-        app:srcCompat="@drawable/Vector" />
+        app:srcCompat="@drawable/vector" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -14,9 +14,9 @@ public class makanan extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_makanan);
 
-        ImageButton makanantra;
-        makanantra = findViewById(R.id.makanantradisional);
-        makanantra.setOnClickListener(new View.OnClickListener() {
+        ImageButton mkntra;
+        mkntra = findViewById(R.id.makanantradisi);
+        mkntra.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(makanan.this, makanan_tradisional.class));
