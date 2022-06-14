@@ -106,7 +106,7 @@
         app:srcCompat="@drawable/tempebacem" />
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/terbaru"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"

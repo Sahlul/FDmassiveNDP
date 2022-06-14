@@ -101,7 +101,7 @@
         app:layout_constraintVertical_bias="0.688" />
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/terbaru"
         android:layout_width="208dp"
         android:layout_height="93dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -225,5 +225,18 @@
         app:srcCompat="@drawable/home_nav"
 
         />
+
+    <ImageButton
+        android:id="@+id/kereseptrbru"
+        android:layout_width="22dp"
+        android:layout_height="19dp"
+        android:background="@color/bckround"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.933"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.691"
+        app:srcCompat="@drawable/arrow" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

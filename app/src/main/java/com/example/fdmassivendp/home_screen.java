@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 
 public class home_screen extends AppCompatActivity {
 
@@ -34,6 +35,26 @@ public class home_screen extends AppCompatActivity {
                 startActivity(new Intent(home_screen.this,bahan_pilihan.class));
             }
         });
+
+
+        ImageButton resepbru;
+        resepbru = findViewById(R.id.kereseptrbru);
+        resepbru.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(home_screen.this,resep_terbaru.class));
+            }
+        });
+
+        ImageView profil;
+        profil = findViewById(R.id.profil1);
+        profil.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(home_screen.this,profil.class));
+            }
+        });
+
 
     }
 }
