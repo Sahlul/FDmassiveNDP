@@ -55,6 +55,15 @@ public class home_screen extends AppCompatActivity {
             }
         });
 
+        ImageView add;
+        add = findViewById(R.id.add1);
+        add.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(home_screen.this,resepsaya.class));
+            }
+        });
+
 
     }
 }
