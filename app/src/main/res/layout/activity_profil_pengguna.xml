@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bckround"
+    tools:context=".profil_pengguna">
+
+  <Button
+      android:id="@+id/logout"
+      android:layout_width="177dp"
+      android:layout_height="43dp"
+      android:backgroundTint="@color/button"
+      android:text="LOG OUT"
+      android:textColor="#000000"
+      android:textSize="20dp"
+      app:cornerRadius="10dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.787" />
+
+  <EditText
+      android:id="@+id/regusername4"
+      android:layout_width="293dp"
+      android:layout_height="44dp"
+      android:background="@drawable/backform"
+      android:backgroundTint="#FFFFFF"
+      android:inputType="textPersonName"
+      app:cornerRadius="10dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.608" />
+
+  <EditText
+      android:id="@+id/regusername3"
+      android:layout_width="293dp"
+      android:layout_height="44dp"
+      android:background="@drawable/backform"
+      android:backgroundTint="#FFFFFF"
+      android:inputType="textPersonName"
+      app:cornerRadius="10dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.481" />
+
+  <EditText
+      android:id="@+id/regusername2"
+      android:layout_width="293dp"
+      android:layout_height="44dp"
+      android:background="@drawable/backform"
+      android:backgroundTint="#FFFFFF"
+      android:inputType="textPersonName"
+      app:cornerRadius="10dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.358" />
+
+  <TextView
+      android:id="@+id/textView27"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textColor="@color/black"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.482"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.064"
+      tools:text="@string/tlsprof" />
+
+  <ImageView
+      android:id="@+id/imageView4"
+      android:layout_width="100dp"
+      android:layout_height="100dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.473"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.148"
+      app:srcCompat="@drawable/poto_jason" />
+
+  <ImageView
+      android:id="@+id/imageView42"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.932"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.045"
+      app:srcCompat="@drawable/gear" />
+</androidx.constraintlayout.widget.ConstraintLayout>

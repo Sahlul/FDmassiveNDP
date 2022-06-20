@@ -64,6 +64,15 @@ public class home_screen extends AppCompatActivity {
             }
         });
 
+        ImageView userprofil;
+        userprofil = findViewById(R.id.jasonprofil);
+        userprofil.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(home_screen.this,profil_pengguna.class));
+            }
+        });
+
 
     }
 }

@@ -142,7 +142,7 @@
         app:layout_constraintHorizontal_bias="0.176"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.781"
+        app:layout_constraintVertical_bias="0.797"
         app:srcCompat="@drawable/minuman_moderen" />
 
     <ImageView
@@ -154,7 +154,7 @@
         app:layout_constraintHorizontal_bias="0.896"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.782"
+        app:layout_constraintVertical_bias="0.798"
         app:srcCompat="@drawable/minuman_moderen2" />
 
     <RelativeLayout

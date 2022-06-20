@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.fdmassivendp">
+    package="com.example.fdmassivendp" >
 
     <application
         android:allowBackup="true"
@@ -8,7 +8,13 @@
         android:label=""
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.FDmassiveNDP">
+        android:theme="@style/Theme.FDmassiveNDP" >
+        <activity
+            android:name=".profil_pengguna"
+            android:exported="false" />
+        <activity
+            android:name=".makanan_modern"
+            android:exported="false" />
         <activity
             android:name=".makanan_tradisional"
             android:exported="false" />
@@ -71,7 +77,7 @@
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

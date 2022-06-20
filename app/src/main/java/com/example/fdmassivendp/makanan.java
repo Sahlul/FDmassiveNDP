@@ -22,5 +22,42 @@ public class makanan extends AppCompatActivity {
                 startActivity(new Intent(makanan.this, makanan_tradisional.class));
             }
         });
+        ImageButton mknmodern;
+        mknmodern = findViewById(R.id.makananmodern);
+        mknmodern.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(makanan.this, makanan_modern.class));
+            }
+        });
+
+        ImageButton imgbtn4;
+        imgbtn4 = findViewById(R.id.imageButton4);
+        imgbtn4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(makanan.this, home_screen.class));
+            }
+        });
+
+        ImageButton imgbtn5;
+        imgbtn5 = findViewById(R.id.imageButton5);
+        imgbtn5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(makanan.this, resepsaya.class));
+            }
+        });
+
+        ImageButton imgbtn6;
+        imgbtn6 = findViewById(R.id.imageButton6);
+        imgbtn6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(makanan.this, profil.class));
+            }
+        });
+
+
     }
 }

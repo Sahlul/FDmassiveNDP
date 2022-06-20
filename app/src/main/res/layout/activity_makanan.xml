@@ -156,7 +156,7 @@
         app:srcCompat="@drawable/gado2" />
 
     <ImageButton
-        android:id="@+id/imageButton9"
+        android:id="@+id/makananmodern"
         android:layout_width="231dp"
         android:layout_height="179dp"
         app:layout_constraintBottom_toBottomOf="parent"
