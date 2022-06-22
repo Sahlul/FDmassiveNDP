@@ -7,6 +7,8 @@
     android:background="@color/bckround"
     tools:context=".home_screen">
 
+
+
     <TextView
         android:id="@+id/textView12"
         android:layout_width="198dp"
@@ -217,31 +219,27 @@
         app:srcCompat="@drawable/arrow" />
 
 
-    <ImageView
-        android:id="@+id/terbaru"
-        android:layout_width="186dp"
-        android:layout_height="90dp"
+    <ViewFlipper
+        android:id="@+id/v_flipper"
+        android:layout_width="177dp"
+        android:layout_height="104dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.111"
+        app:layout_constraintHorizontal_bias="0.102"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/rspmakdanmin"
-        app:layout_constraintVertical_bias="0.409"
-        app:srcCompat="@drawable/burger" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.845" />
 
-    <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="135dp"
-        android:layout_height="92dp"
-        android:layout_marginTop="40dp"
+    <ViewFlipper
+        android:id="@+id/v_flipper1"
+        android:layout_width="158dp"
+        android:layout_height="104dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.886"
+        app:layout_constraintHorizontal_bias="0.897"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/rspmakdanmin"
-        app:layout_constraintVertical_bias="0.218"
-        app:srcCompat="@drawable/sambal" />
-
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.845" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
