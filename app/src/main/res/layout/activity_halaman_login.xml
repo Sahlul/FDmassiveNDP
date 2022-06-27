@@ -8,7 +8,7 @@
     tools:context=".halaman_login">
 
     <EditText
-        android:id="@+id/password"
+        android:id="@+id/passwordedit"
         android:layout_width="293dp"
         android:layout_height="44dp"
         android:background="@drawable/backform"

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bckround"
+    tools:context=".profil_edit">
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="177dp"
+        android:layout_height="43dp"
+        android:backgroundTint="@color/button"
+        android:text="Submit"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        app:cornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.908" />
+
+    <RelativeLayout
+        android:layout_width="271dp"
+        android:layout_height="54dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.774">
+
+        <EditText
+            android:id="@+id/ulangipwedit"
+            style="@android:style/Widget.Holo.Light.Button.Small"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/backform"
+            android:hint="Ulangi Password"
+            android:inputType="textPersonName"
+            tools:ignore="MissingConstraints" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="271dp"
+        android:layout_height="54dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.67">
+
+        <EditText
+            android:id="@+id/passwordedit"
+            style="@android:style/Widget.Holo.Light.Button.Small"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/backform"
+            android:hint="Password"
+            android:inputType="textPersonName"
+            tools:ignore="MissingConstraints" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="271dp"
+        android:layout_height="54dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.565">
+
+        <EditText
+            android:id="@+id/notelp"
+            style="@android:style/Widget.Holo.Light.Button.Small"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/backform"
+            android:hint="No.Telephone"
+            android:inputType="textPersonName"
+            tools:ignore="MissingConstraints" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="271dp"
+        android:layout_height="54dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.46">
+
+        <EditText
+            android:id="@+id/email"
+            style="@android:style/Widget.Holo.Light.Button.Small"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/backform"
+            android:hint="Email"
+            android:inputType="textPersonName"
+            tools:ignore="MissingConstraints" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.064"
+        tools:text="EDIT PROFIL" />
+
+    <RelativeLayout
+        android:layout_width="271dp"
+        android:layout_height="54dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.353">
+
+        <EditText
+            android:id="@+id/username"
+            style="@android:style/Widget.Holo.Light.Button.Small"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/backform"
+            android:hint="Username"
+            android:inputType="textPersonName"
+            tools:ignore="MissingConstraints" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.182">
+
+        <ImageView
+            android:id="@+id/fotoprofil"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/poto_jason" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.671"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.27">
+
+        <ImageView
+            android:id="@+id/editfoto"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            app:srcCompat="@drawable/potoedit" />
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
