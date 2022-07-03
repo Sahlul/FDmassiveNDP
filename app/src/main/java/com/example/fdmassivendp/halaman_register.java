@@ -53,14 +53,18 @@ public class halaman_register extends AppCompatActivity {
                 .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
-                        if (task.isSuccessful()) {
-                            // Sign in success, update UI with the signed-in user's information
-                            startActivity(new Intent(halaman_register.this,home_screen.class));
-                        } else {
-                            // If sign in fails, display a message to the user.
-                            Toast.makeText(halaman_register.this,"Login gagal",Toast.LENGTH_LONG).show();
+                        if (regpassword1.equals(regpassword2)) {
+                            startActivity(new Intent (halaman_register.this,home_screen.class));
+                        }
+                        else {
+                            Toast.makeText(halaman_register.this, "Password Tidak Sama", Toast.LENGTH_SHORT).show();
                         }
                     }
+
+                    {
+
+                    }
+
                 });
     }
 
