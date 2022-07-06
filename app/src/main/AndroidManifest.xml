@@ -10,16 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FDmassiveNDP">
         <activity
-            android:name=".sambungan_resep_1"
-            android:exported="false" />
-        <activity
-            android:name=".resep_1"
-            android:exported="false" />
-        <activity
-            android:name=".sambungan_resep"
-            android:exported="false" />
-        <activity
-            android:name=".resep"
+            android:name=".resep_minuman_bandrek"
             android:exported="false" />
         <activity
             android:name=".profil_edit"

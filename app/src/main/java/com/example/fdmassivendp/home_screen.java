@@ -20,23 +20,22 @@ public class home_screen extends AppCompatActivity {
         setContentView(R.layout.activity_home_screen);
 
 
-
         ImageButton rspmakanandanminuman;
         rspmakanandanminuman = findViewById(R.id.rspmakdanmin);
         rspmakanandanminuman.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(home_screen.this,makanan_dan_minuman.class));
+                startActivity(new Intent(home_screen.this, makanan_dan_minuman.class));
             }
         });
 
 
-        ImageButton bhanpilihan;
-        bhanpilihan = findViewById(R.id.bhanpilihan);
+        ImageView bhanpilihan;
+        bhanpilihan = findViewById(R.id.kebahanpilihan);
         bhanpilihan.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(home_screen.this,bahan_pilihan.class));
+                startActivity(new Intent(home_screen.this, bahan_pilihan.class));
             }
         });
 
@@ -46,7 +45,7 @@ public class home_screen extends AppCompatActivity {
         resepbru.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(home_screen.this,resep_terbaru.class));
+                startActivity(new Intent(home_screen.this, resep_terbaru.class));
             }
         });
 
@@ -55,7 +54,7 @@ public class home_screen extends AppCompatActivity {
         profil.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(home_screen.this,profil.class));
+                startActivity(new Intent(home_screen.this, profil.class));
             }
         });
 
@@ -64,7 +63,7 @@ public class home_screen extends AppCompatActivity {
         add.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(home_screen.this,resepsaya.class));
+                startActivity(new Intent(home_screen.this, resepsaya.class));
             }
         });
 
@@ -73,12 +72,12 @@ public class home_screen extends AppCompatActivity {
         userprofil.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(home_screen.this,profil_pengguna.class));
+                startActivity(new Intent(home_screen.this, profil_pengguna.class));
             }
         });
 
 
-        int imagesmakanan[] = {R.drawable.gado2,R.drawable.sambal,R.drawable.burger};
+        /*int imagesmakanan[] = {R.drawable.gado2,R.drawable.sambal,R.drawable.burger};
         makanan = findViewById(R.id.v_flipper);
 
         int imagesminuman[] = {R.drawable.minuman2,R.drawable.dalgonacoffe,R.drawable.minuman};
@@ -89,7 +88,7 @@ public class home_screen extends AppCompatActivity {
         }
         for (int image1: imagesminuman){
             flipperimage1(image1);
-        }
+        }/*
 
 
     }
@@ -121,4 +120,10 @@ public class home_screen extends AppCompatActivity {
 
     }
 
+}
+
+         */
+
+
+    }
 }

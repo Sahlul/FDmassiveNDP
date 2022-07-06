@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "923837444288",
-    "project_id": "fdmassivendp",
-    "storage_bucket": "fdmassivendp.appspot.com"
+    "project_number": "756968933649",
+    "project_id": "fdmassivendp-264e1",
+    "storage_bucket": "fdmassivendp-264e1.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:923837444288:android:1bf24ed1c704c17f033d25",
+        "mobilesdk_app_id": "1:756968933649:android:eb8f940011b69fcd4024b0",
         "android_client_info": {
           "package_name": "com.example.fdmassivendp"
         }
       },
       "oauth_client": [
         {
-          "client_id": "923837444288-h7ilo7pcvedsskvj4hlbac65cap3j94b.apps.googleusercontent.com",
+          "client_id": "756968933649-p3is3rep6kodffnspsa6e3b5do0nekek.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyA_togZUqQFYPcAkWQ6KVcGomVSXPergj4"
+          "current_key": "AIzaSyAM_YZ8i0tNLEH4wGUOg6P6K0omNF2-GFw"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "923837444288-h7ilo7pcvedsskvj4hlbac65cap3j94b.apps.googleusercontent.com",
+              "client_id": "756968933649-p3is3rep6kodffnspsa6e3b5do0nekek.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

@@ -31,7 +31,7 @@ public class halaman_login extends AppCompatActivity {
         mAuth = FirebaseAuth.getInstance();
 
         inputemail = findViewById(R.id.emaillog);
-        inputpassword = findViewById(R.id.passwordedit);
+        inputpassword = findViewById(R.id.edpasswordedit);
 
         login = findViewById(R.id.login);
         login.setOnClickListener(new View.OnClickListener() {

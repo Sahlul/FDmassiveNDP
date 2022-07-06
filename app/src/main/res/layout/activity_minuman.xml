@@ -10,6 +10,10 @@
 
 
 
+
+
+
+
     <ImageView
         android:id="@+id/imageView13"
         android:layout_width="360dp"
@@ -23,6 +27,7 @@
         app:srcCompat="@drawable/bottomnav" />
 
     <RelativeLayout
+        android:id="@+id/relativeLayout2"
         android:layout_width="24dp"
         android:layout_height="24dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -95,30 +100,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.225" />
 
-    <ImageView
-        android:id="@+id/imageView9"
-        android:layout_width="231dp"
-        android:layout_height="184dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.166"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.356"
-        app:srcCompat="@drawable/minuman2" />
-
-    <ImageView
-        android:id="@+id/imageView10"
-        android:layout_width="81dp"
-        android:layout_height="181dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.875"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.354"
-        app:srcCompat="@drawable/minuman_tradisoinal" />
-
     <TextView
         android:id="@+id/textView13"
         android:layout_width="wrap_content"
@@ -132,30 +113,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.568" />
-
-    <ImageView
-        android:id="@+id/imageView11"
-        android:layout_width="241dp"
-        android:layout_height="172dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.176"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.797"
-        app:srcCompat="@drawable/minuman_moderen" />
-
-    <ImageView
-        android:id="@+id/imageView12"
-        android:layout_width="81dp"
-        android:layout_height="171dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.896"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.798"
-        app:srcCompat="@drawable/dalgonacoffe" />
 
     <RelativeLayout
         android:layout_width="24dp"
@@ -192,5 +149,95 @@
             android:background="@color/navi"
             app:srcCompat="@drawable/gg_profile" />
     </RelativeLayout>
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView"
+        android:layout_width="417dp"
+        android:layout_height="193dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.37">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/minumantradisional1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/minuman2" />
+
+            <ImageView
+                android:id="@+id/minumantradisional2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                app:layout_constraintStart_toEndOf="@+id/minumantradisional1"
+                app:layout_constraintTop_toTopOf="@id/minumantradisional1"
+                app:srcCompat="@drawable/minuman_tradisoinal" />
+
+            <ImageView
+                android:id="@+id/minumantradisional3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                app:layout_constraintStart_toEndOf="@+id/minumantradisional2"
+                app:layout_constraintTop_toTopOf="@id/minumantradisional2"
+                app:srcCompat="@drawable/minuman" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </HorizontalScrollView>
+
+    <HorizontalScrollView
+        android:layout_width="417dp"
+        android:layout_height="193dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.827">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/minumanmodern1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/minuman_moderen" />
+
+            <ImageView
+                android:id="@+id/minumanmodern2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                app:layout_constraintStart_toEndOf="@+id/minumanmodern1"
+                app:layout_constraintTop_toTopOf="@id/minumanmodern1"
+                app:srcCompat="@drawable/dalgonacoffe" />
+
+            <ImageView
+                android:id="@+id/minumanmodern3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                app:layout_constraintStart_toEndOf="@+id/minumanmodern2"
+                app:layout_constraintTop_toTopOf="@id/minumanmodern2"
+                app:srcCompat="@drawable/nlueocean" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </HorizontalScrollView>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
