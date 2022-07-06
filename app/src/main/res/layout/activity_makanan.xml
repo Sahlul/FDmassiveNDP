@@ -8,6 +8,18 @@
     android:background="@color/bckround"
     tools:context=".makanan">
 
+    <ImageView
+        android:id="@+id/kerekmakaanmodern"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.933"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.546"
+        app:srcCompat="@drawable/arrow" />
+
     <TextView
         android:id="@+id/textView24"
         android:layout_width="wrap_content"
@@ -166,6 +178,18 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.78"
         app:srcCompat="@drawable/makanan_moderen" />
+
+    <ImageView
+        android:id="@+id/kerekmakaantra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.933"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.213"
+        app:srcCompat="@drawable/arrow" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

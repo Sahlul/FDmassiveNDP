@@ -10,16 +10,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FDmassiveNDP">
         <activity
-            android:name=".sambungan_resep_1"
+            android:name=".resep_burger_tempe"
             android:exported="false" />
         <activity
-            android:name=".resep_1"
+            android:name=".rekomendasi_minuman_modern"
             android:exported="false" />
         <activity
-            android:name=".sambungan_resep"
+            android:name=".rekomendasi_minuman_tradisional"
             android:exported="false" />
         <activity
-            android:name=".resep"
+            android:name=".resep_minuman_bandrek"
             android:exported="false" />
         <activity
             android:name=".profil_edit"
@@ -28,10 +28,10 @@
             android:name=".profil_pengguna"
             android:exported="false" />
         <activity
-            android:name=".makanan_modern"
+            android:name=".rekomendasi_makanan_modern"
             android:exported="false" />
         <activity
-            android:name=".makanan_tradisional"
+            android:name=".rekomendasi_makanan_tradisional"
             android:exported="false" />
         <activity
             android:name=".sambunganresepterbaru"

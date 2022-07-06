@@ -4,11 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class sambungan_resep extends AppCompatActivity {
+public class rekomendasi_minuman_modern extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_sambungan_resep);
+        setContentView(R.layout.activity_rekomendasi_minuman_modern);
     }
 }

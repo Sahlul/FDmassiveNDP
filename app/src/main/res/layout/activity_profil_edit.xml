@@ -32,7 +32,7 @@
         app:layout_constraintVertical_bias="0.774">
 
         <EditText
-            android:id="@+id/ulangipwedit"
+            android:id="@+id/edulangipwedit"
             style="@android:style/Widget.Holo.Light.Button.Small"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -52,7 +52,7 @@
         app:layout_constraintVertical_bias="0.67">
 
         <EditText
-            android:id="@+id/passwordedit"
+            android:id="@+id/edpasswordedit"
             style="@android:style/Widget.Holo.Light.Button.Small"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -72,7 +72,7 @@
         app:layout_constraintVertical_bias="0.565">
 
         <EditText
-            android:id="@+id/notelp"
+            android:id="@+id/ednotelp"
             style="@android:style/Widget.Holo.Light.Button.Small"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -93,7 +93,7 @@
         app:layout_constraintVertical_bias="0.46">
 
         <EditText
-            android:id="@+id/email"
+            android:id="@+id/edemail"
             style="@android:style/Widget.Holo.Light.Button.Small"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -126,7 +126,7 @@
         app:layout_constraintVertical_bias="0.353">
 
         <EditText
-            android:id="@+id/username"
+            android:id="@+id/edusername"
             style="@android:style/Widget.Holo.Light.Button.Small"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -170,5 +170,17 @@
             android:layout_height="24dp"
             app:srcCompat="@drawable/potoedit" />
     </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/viewdata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.118"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.057"
+        app:srcCompat="@drawable/ic_arrow___left" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

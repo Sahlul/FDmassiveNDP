@@ -3,23 +3,30 @@ package com.example.fdmassivendp;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.OnFailureListener;
+import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.firestore.FirebaseFirestore;
 
 public class halaman_register extends AppCompatActivity {
 
     EditText inputregusername,inputregemail,inputregnohandphone,inputregpassword1,inputregpassword2;
     Button daftar;
     FirebaseAuth mAuth;
+    FirebaseFirestore db = FirebaseFirestore.getInstance();
     String regusername,regemail,regnohandphone,regpassword1,regpassword2;
 
     @Override
@@ -54,6 +61,31 @@ public class halaman_register extends AppCompatActivity {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (regpassword1.equals(regpassword2)) {
+
+                            User user = new User(regusername, regemail, regnohandphone);
+                            db.collection("users").document(regemail)
+                                    .set(user)
+                                    .addOnSuccessListener(new OnSuccessListener<Void>() {
+                                        @Override
+                                        public void onSuccess(Void aVoid) {
+                                            Log.d("berhasil", "DocumentSnapshot successfully written!");
+
+                                            SharedPreferences sharedPref = getSharedPreferences("_USER", Context.MODE_PRIVATE);
+                                            SharedPreferences.Editor editor = sharedPref.edit();
+                                            editor.putString ("name", regusername);
+                                            editor.putString ("email", regemail);
+                                            editor.putString ("notelp",regnohandphone);
+                                            editor.apply();
+
+                                        }
+                                    })
+                                    .addOnFailureListener(new OnFailureListener() {
+                                        @Override
+                                        public void onFailure(@NonNull Exception e) {
+                                            Log.w("gagal", "Error writing document", e);
+                                        }
+                                    });
+
                             startActivity(new Intent (halaman_register.this,home_screen.class));
                         }
                         else {

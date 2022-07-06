@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -14,20 +15,20 @@ public class makanan extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_makanan);
 
-        ImageButton mkntra;
-        mkntra = findViewById(R.id.makanantradisi);
+        ImageView mkntra;
+        mkntra = findViewById(R.id.kerekmakaantra);
         mkntra.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(makanan.this, makanan_tradisional.class));
+                startActivity(new Intent(makanan.this, rekomendasi_makanan_tradisional.class));
             }
         });
-        ImageButton mknmodern;
-        mknmodern = findViewById(R.id.makananmodern);
+        ImageView mknmodern;
+        mknmodern = findViewById(R.id.kerekmakaanmodern);
         mknmodern.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(makanan.this, makanan_modern.class));
+                startActivity(new Intent(makanan.this, rekomendasi_makanan_modern.class));
             }
         });
 

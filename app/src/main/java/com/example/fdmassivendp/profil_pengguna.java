@@ -1,27 +1,79 @@
 package com.example.fdmassivendp;
 
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 
+import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
 
+import android.content.SharedPreferences;
 import android.os.Bundle;
 
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ImageView;
+
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.firestore.DocumentReference;
+import com.google.firebase.firestore.DocumentSnapshot;
+import com.google.firebase.firestore.FirebaseFirestore;
 
 
 public class profil_pengguna extends AppCompatActivity {
 
 
-
-
+    FirebaseFirestore db = FirebaseFirestore.getInstance();
+    EditText name,email,notelp;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profil_pengguna);
+
+
+
+
+        name = findViewById(R.id.usernameprofil);
+        email = findViewById(R.id.emailprofil);
+        notelp = findViewById(R.id.notelpprofil);
+
+        SharedPreferences sharedPref = getSharedPreferences("_USER",Context.MODE_PRIVATE);
+        String _name = sharedPref.getString("name", "");
+        String _email = sharedPref.getString("email", "");
+        String _notelp = sharedPref.getString("notelp", "");
+
+        name.setText(_name);
+        email.setText(_email);
+        notelp.setText(_notelp);
+
+        /*FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();//mendapatkan data dari  dari email yg login
+        Log.e("users", String.valueOf(user));
+        DocumentReference docRef = db.collection("users").document(user.getEmail());
+        docRef.get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() {
+            @Override
+            public void onComplete(@NonNull Task<DocumentSnapshot> task) {
+                if (task.isSuccessful()) {
+                    DocumentSnapshot document = task.getResult();
+                    if (document.exists()) {
+                        name.setText(document.getData().get("nama").toString());
+                        Log.d("berhasil", "DocumentSnapshot data: " + document.getData());
+                    } else {
+                        Log.d("tidak ada data", "No such document");
+                    }
+                } else {
+                    Log.d("gagal", "get failed with ", task.getException());
+                }
+            }
+        });
+*/
+
 
 
         ImageView setting;
@@ -47,6 +99,7 @@ public class profil_pengguna extends AppCompatActivity {
 
 
     }
+
 
 
 }

@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 
 public class minuman extends AppCompatActivity {
 
@@ -22,7 +23,23 @@ public class minuman extends AppCompatActivity {
 
 
 
+        ImageView keminumantradisional;
+        keminumantradisional = findViewById(R.id.keminumantradisional);
+        keminumantradisional.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(minuman.this, rekomendasi_minuman_tradisional.class));
+            }
+        });
 
+        ImageView keminumanmodern;
+        keminumanmodern = findViewById(R.id.keminumanmodern);
+        keminumanmodern.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(minuman.this, rekomendasi_minuman_modern.class));
+            }
+        });
 
 
         ImageButton imgbtn7;
