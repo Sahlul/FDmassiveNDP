@@ -10,5 +10,7 @@ public class rekomendasi_minuman_modern extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_rekomendasi_minuman_modern);
+
+
     }
 }
