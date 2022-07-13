@@ -16,7 +16,7 @@
         app:layout_constraintHorizontal_bias="0.528"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.107"
+        app:layout_constraintVertical_bias="0.147"
         app:srcCompat="@drawable/backgroundputih" />
 
     <TextView
@@ -25,7 +25,7 @@
         android:layout_height="32dp"
         android:text="Burger Tempe"
         android:textColor="#000000"
-        android:textSize="14sp"
+        android:textSize="15sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -41,7 +41,7 @@
         android:layout_height="115dp"
         android:text="Hancurkan tempe dan beri bawang putih, telur, lada, kaldu bubuk, dan garam. Aduk hingga tercampur, lalu bentuk bulat pipih."
         android:textColor="#000000"
-        android:textSize="14sp"
+        android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.216"
@@ -50,29 +50,6 @@
         app:layout_constraintVertical_bias="0.222" />
 
 
-    <ImageView
-        android:id="@+id/imageView30"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.79"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.158"
-        app:srcCompat="@drawable/burgertempe" />
-
-    <ImageView
-        android:id="@+id/terbaru"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.819"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.295"
-        app:srcCompat="@drawable/vector" />
 
     <ImageView
         android:id="@+id/imageView19"
@@ -88,11 +65,11 @@
 
     <TextView
         android:id="@+id/textView14"
-        android:layout_width="158dp"
-        android:layout_height="32dp"
+        android:layout_width="156dp"
+        android:layout_height="38dp"
         android:text="Tumis Tempe Kacang Panjang"
         android:textColor="#000000"
-        android:textSize="14sp"
+        android:textSize="15sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -107,7 +84,7 @@
         android:layout_height="123dp"
         android:text="Panaskan sedikit minyak, tumis irisan bawang merah, bawang putih, cabai, daun salam, dan pipihan lengkuas."
         android:textColor="#000000"
-        android:textSize="14sp"
+        android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.222"
@@ -139,7 +116,30 @@
         app:layout_constraintVertical_bias="0.687"
         app:srcCompat="@drawable/vector" />
 
+    <ImageView
+        android:id="@+id/imageView46"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.79"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.158"
+        app:srcCompat="@drawable/geraja" />
 
+
+    <ImageView
+        android:id="@+id/terbaru"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.819"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.295"
+        app:srcCompat="@drawable/vector" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

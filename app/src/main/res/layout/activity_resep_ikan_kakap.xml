@@ -38,13 +38,28 @@
         android:layout_height="17dp"
         android:text="Jason Maulana"
         android:textColor="#000000"
-        android:textSize="14sp"
+        android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.451"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.113" />
+
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="125dp"
+        android:layout_height="18dp"
+        android:text="@string/rspikankkp"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.16"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.199" />
 
     <TextView
         android:id="@+id/textView23"
@@ -58,8 +73,7 @@
         app:layout_constraintHorizontal_bias="0.127"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.237" />
-
+        app:layout_constraintVertical_bias="0.263" />
 
     <TextView
         android:id="@+id/textView12"
@@ -67,7 +81,7 @@
         android:layout_height="32dp"
         android:text="Gulai kepala ikan kakap"
         android:textColor="#000000"
-        android:textSize="14sp"
+        android:textSize="15sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -82,7 +96,7 @@
         android:layout_height="93dp"
         android:text="Lumuri kepala ikan dengan garam dan air jeruk. Diamkan 10 menit lalu cuci bersih ."
         android:textColor="#000000"
-        android:textSize="14sp"
+        android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.213"
@@ -133,7 +147,7 @@
         android:layout_height="32dp"
         android:text="Sup ikan kakap"
         android:textColor="#000000"
-        android:textSize="14sp"
+        android:textSize="15sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -148,7 +162,7 @@
         android:layout_height="123dp"
         android:text="Cuci bersih ikan, lalu potong sesuai selera. Lumuri dengan air perasan jeruk nipis dan 1 sdm garam hingga merata..."
         android:textColor="#000000"
-        android:textSize="14sp"
+        android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.214"

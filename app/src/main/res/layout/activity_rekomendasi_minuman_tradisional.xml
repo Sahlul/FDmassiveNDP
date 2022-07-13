@@ -17,10 +17,10 @@
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.092"
+        app:layout_constraintHorizontal_bias="0.16"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.253" />
+        app:layout_constraintVertical_bias="0.274" />
 
     <TextView
         android:id="@+id/textView32"
@@ -31,24 +31,24 @@
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.092"
+        app:layout_constraintHorizontal_bias="0.16"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.198" />
+        app:layout_constraintVertical_bias="0.224" />
 
     <TextView
         android:id="@+id/textView30"
-        android:layout_width="154dp"
-        android:layout_height="17dp"
+        android:layout_width="148dp"
+        android:layout_height="25dp"
         android:text="FD Recipe"
         android:textColor="#000000"
-        android:textSize="14sp"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.414"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.085" />
+        app:layout_constraintVertical_bias="0.126" />
 
     <ImageView
         android:id="@+id/imageView8"
@@ -56,10 +56,10 @@
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.086"
+        app:layout_constraintHorizontal_bias="0.062"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.025"
+        app:layout_constraintVertical_bias="0.081"
         app:srcCompat="@drawable/logo2" />
 
     <ScrollView
@@ -106,6 +106,7 @@
                 android:layout_marginTop="-40dp"
                 android:layout_marginEnd="10dp"
                 android:layout_marginRight="20dp"
+                android:textSize="16sp"
                 android:text="Bandrek Jahe Merah"
                 android:textColor="@color/black" />
 
@@ -139,6 +140,7 @@
                 android:layout_marginTop="-40dp"
                 android:layout_marginEnd="10dp"
                 android:layout_marginRight="20dp"
+                android:textSize="16sp"
                 android:text="Cendol Dawet"
                 android:textColor="@color/black" />
 
@@ -172,6 +174,7 @@
                 android:layout_marginTop="-40dp"
                 android:layout_marginEnd="10dp"
                 android:layout_marginRight="20dp"
+                android:textSize="16sp"
                 android:text="Bir Pletok"
                 android:textColor="@color/black" />
 
@@ -204,6 +207,7 @@
                 android:layout_marginTop="-40dp"
                 android:layout_marginEnd="10dp"
                 android:layout_marginRight="20dp"
+                android:textSize="16sp"
                 android:text="Bajigur"
                 android:textColor="@color/black" />
 

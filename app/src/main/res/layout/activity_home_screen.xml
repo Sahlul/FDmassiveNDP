@@ -19,8 +19,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.154"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.463" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView11"
@@ -80,6 +79,33 @@
         app:layout_constraintVertical_bias="0.318"
         app:srcCompat="@drawable/ikan" />
 
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.45"
+        app:srcCompat="@drawable/buttttom" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="149dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="8dp"
+        android:text="Ikan Kakap"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.125"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.453" />
+
     <ImageButton
         android:id="@+id/rspmakdanmin"
         android:layout_width="315dp"
@@ -90,7 +116,7 @@
         app:layout_constraintHorizontal_bias="0.343"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.585"
+        app:layout_constraintVertical_bias="0.619"
         app:srcCompat="@drawable/makndmni" />
 
     <TextView
@@ -105,7 +131,7 @@
         app:layout_constraintHorizontal_bias="0.111"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.688" />
+        app:layout_constraintVertical_bias="0.714" />
 
     <ImageView
         android:id="@+id/jasonprofil"
@@ -123,11 +149,11 @@
     <TextView
         android:id="@+id/textView14"
         android:layout_width="154dp"
-        android:layout_height="17dp"
+        android:layout_height="22dp"
         android:layout_marginStart="15dp"
         android:text="Hai"
         android:textColor="#000000"
-        android:textSize="14sp"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.404"
@@ -137,11 +163,11 @@
 
     <TextView
         android:id="@+id/textView15"
-        android:layout_width="154dp"
-        android:layout_height="17dp"
+        android:layout_width="157dp"
+        android:layout_height="26dp"
         android:text="Jason Maulana"
         android:textColor="#000000"
-        android:textSize="14sp"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.439"
@@ -221,7 +247,7 @@
         app:layout_constraintHorizontal_bias="0.933"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.691"
+        app:layout_constraintVertical_bias="0.713"
         app:srcCompat="@drawable/arrow" />
 
     <HorizontalScrollView
@@ -243,7 +269,7 @@
                 android:id="@+id/makananrekomendasi1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="27dp"
+                android:layout_marginStart="32dp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:srcCompat="@drawable/supikankkap" />
@@ -252,7 +278,7 @@
                 android:id="@+id/burgertempe"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="15dp"
+                android:layout_marginStart="16dp"
                 app:layout_constraintStart_toEndOf="@+id/makananrekomendasi1"
                 app:layout_constraintTop_toTopOf="@id/makananrekomendasi1"
                 app:srcCompat="@drawable/burgertempe" />

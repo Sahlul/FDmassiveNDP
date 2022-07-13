@@ -25,7 +25,7 @@
         android:id="@+id/textView15"
         android:text="Jason Maulana"
         android:textColor="#000000"
-        android:textSize="14sp"
+        android:textSize="15sp"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginStart="95dp"
@@ -35,12 +35,11 @@
         android:id="@+id/textView35"
         android:text="RESEP TERBARU"
         android:textColor="#000000"
-        android:textSize="14sp"
+        android:textSize="15sp"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginStart="28dp"
-        android:layout_marginTop="110dp"
-         />
+        android:layout_marginTop="110dp" />
 
 
 
@@ -88,6 +87,7 @@
                 android:layout_marginTop="-40dp"
                 android:layout_marginEnd="10dp"
                 android:layout_marginRight="20dp"
+                android:textSize="20sp"
                 android:text="Lontong Medan"
                 android:textColor="@color/black" />
 
@@ -121,6 +121,7 @@
                 android:layout_marginTop="-40dp"
                 android:layout_marginEnd="10dp"
                 android:layout_marginRight="20dp"
+                android:textSize="20sp"
                 android:text="Soto Medan"
                 android:textColor="@color/black" />
 
@@ -154,6 +155,7 @@
                 android:layout_marginTop="-40dp"
                 android:layout_marginEnd="10dp"
                 android:layout_marginRight="20dp"
+                android:textSize="20sp"
                 android:text="Burger Tempe"
                 android:textColor="@color/black" />
 
@@ -189,6 +191,7 @@
                 android:layout_marginTop="-40dp"
                 android:layout_marginEnd="10dp"
                 android:layout_marginRight="20dp"
+                android:textSize="20sp"
                 android:text="Tim Ikan Kakap"
                 android:textColor="@color/black" />
 
