@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FDmassiveNDP">
         <activity
+            android:name=".resep_soto_medan"
+            android:exported="false" />
+        <activity
             android:name=".resep_burger_tempe"
             android:exported="false" />
         <activity
@@ -32,15 +35,6 @@
             android:exported="false" />
         <activity
             android:name=".rekomendasi_makanan_tradisional"
-            android:exported="false" />
-        <activity
-            android:name=".sambunganresepterbaru"
-            android:exported="false" />
-        <activity
-            android:name=".sambunganreseptempe"
-            android:exported="false" />
-        <activity
-            android:name=".sambunganresepikankakap"
             android:exported="false" />
         <activity
             android:name=".resep_jamur_tiram"

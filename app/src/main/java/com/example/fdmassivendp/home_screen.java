@@ -28,6 +28,15 @@ public class home_screen extends AppCompatActivity {
             }
         });
 
+        ImageButton keresepiknkkp;
+        keresepiknkkp = findViewById(R.id.keresepikankkp);
+        keresepiknkkp.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(home_screen.this, resep_ikan_kakap.class));
+            }
+        });
+
 
         ImageView bhanpilihan;
         bhanpilihan = findViewById(R.id.kebahanpilihan);
