@@ -2,7 +2,11 @@ package com.example.fdmassivendp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.ActivityNotFoundException;
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
@@ -43,6 +47,19 @@ public class resep_minuman_bandrek extends AppCompatActivity {
             };
             ArrayAdapter<String> myAdapter = new ArrayAdapter<>( this, android.R.layout.simple_list_item_activated_1,resep_bandrekjahe);
             list.setAdapter(myAdapter);
+
+
+    }
+
+    public void openYoutube(View view) {
+        Intent appIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("vnd.youtube:2CPFnblCu6M"));
+        Intent webIntent = new Intent(Intent.ACTION_VIEW,
+                Uri.parse("http://www.youtube.com/watch?v=2CPFnblCu6M"));
+        try {
+            startActivity(appIntent);
+        } catch (ActivityNotFoundException ex) {
+            startActivity(webIntent);
+        }
 
     }
 }

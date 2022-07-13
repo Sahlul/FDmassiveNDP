@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/bckround"
-    tools:context=".resep_lontong_medan">
+    tools:context=".resep_lontong_medan"
+    tools:ignore="MissingClass">
 
     <ImageView
         android:id="@+id/imageView25"
@@ -20,7 +21,7 @@
         app:srcCompat="@drawable/lontongmedan" />
 
     <ListView
-        android:id="@+id/listreseplontongmedan"
+        android:id="@+id/listresepsotomedan"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginStart="10dp"
@@ -50,10 +51,12 @@
         android:layout_width="24dp"
         android:layout_height="24dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEn_dtoEndOf="parent"
+        android:onClick="openYoutube"
         app:layout_constraintHorizontal_bias="0.914"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.035"
         app:srcCompat="@drawable/videoyt" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

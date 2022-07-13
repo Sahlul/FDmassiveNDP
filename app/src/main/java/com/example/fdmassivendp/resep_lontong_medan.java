@@ -2,7 +2,11 @@ package com.example.fdmassivendp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.ActivityNotFoundException;
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
@@ -18,7 +22,7 @@ public class resep_lontong_medan extends AppCompatActivity {
     }
 
     private void listview() {
-        ListView list = (ListView) findViewById(R.id.listreseplontongmedan);
+        ListView list = (ListView) findViewById(R.id.listresepsotomedan);
 
         String [] resep_lontong_medan = {"Bahan :\n" +
                 "1.Buncis, dipotong serong - 150 gram\n" +
@@ -68,5 +72,19 @@ public class resep_lontong_medan extends AppCompatActivity {
         };
         ArrayAdapter<String> myAdapter = new ArrayAdapter<>( this, android.R.layout.simple_list_item_activated_1,resep_lontong_medan);
         list.setAdapter(myAdapter);
+
+
+
+    }
+
+    public void openYoutube(View view) {
+        Intent appIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("vnd.youtube:vG8TPWoY9Es"));
+        Intent webIntent = new Intent(Intent.ACTION_VIEW,
+                Uri.parse("http://www.youtube.com/watch?v=vG8TPWoY9Es"));
+        try {
+            startActivity(appIntent);
+        } catch (ActivityNotFoundException ex) {
+            startActivity(webIntent);
+        }
     }
 }

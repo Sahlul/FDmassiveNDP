@@ -10,6 +10,33 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FDmassiveNDP">
         <activity
+            android:name=".gulai_kepala_ikan_kakap"
+            android:exported="false" />
+        <activity
+            android:name=".caramel_macchiato"
+            android:exported="false" />
+        <activity
+            android:name=".taro_bubble_milkshake"
+            android:exported="false" />
+        <activity
+            android:name=".blue_ocean"
+            android:exported="false" />
+        <activity
+            android:name=".dalagona_coffe"
+            android:exported="false" />
+        <activity
+            android:name=".bajigur"
+            android:exported="false" />
+        <activity
+            android:name=".bir_pletok"
+            android:exported="false" />
+        <activity
+            android:name=".cendoldawet"
+            android:exported="false" />
+        <activity
+            android:name=".resep_soto_medan"
+            android:exported="false" />
+        <activity
             android:name=".resep_burger_tempe"
             android:exported="false" />
         <activity
@@ -32,15 +59,6 @@
             android:exported="false" />
         <activity
             android:name=".rekomendasi_makanan_tradisional"
-            android:exported="false" />
-        <activity
-            android:name=".sambunganresepterbaru"
-            android:exported="false" />
-        <activity
-            android:name=".sambunganreseptempe"
-            android:exported="false" />
-        <activity
-            android:name=".sambunganresepikankakap"
             android:exported="false" />
         <activity
             android:name=".resep_jamur_tiram"
