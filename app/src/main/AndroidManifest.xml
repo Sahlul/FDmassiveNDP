@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FDmassiveNDP">
         <activity
+            android:name=".spaghetticarbonara"
+            android:exported="false" />
+        <activity
             android:name=".karedok"
             android:exported="false" />
         <activity
