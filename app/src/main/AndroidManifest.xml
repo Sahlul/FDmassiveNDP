@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FDmassiveNDP">
         <activity
+            android:name=".lemetsingkong"
+            android:exported="false" />
+        <activity
             android:name=".pepesikankembung"
             android:exported="false" />
         <activity
