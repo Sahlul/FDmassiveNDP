@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/bckround"
-    tools:context=".lemetsingkong">
+    tools:context=".putumayang">
 
     <ImageView
         android:id="@+id/imageView25"
@@ -17,7 +17,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.139"
-        app:srcCompat="@drawable/met" />
+        app:srcCompat="@drawable/putu" />
 
     <ListView
         android:id="@+id/listresepsotomedan"
@@ -36,7 +36,7 @@
         android:id="@+id/textView22"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Lemet Singkong"
+        android:text="Putu Mayang"
         android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -57,7 +57,5 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.035"
         app:srcCompat="@drawable/videoyt" />
-
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
