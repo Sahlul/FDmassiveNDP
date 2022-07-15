@@ -10,6 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FDmassiveNDP">
         <activity
+            android:name=".tumis_tempe_kacang_panjang"
+            android:exported="false" />
+        <activity
+            android:name=".nugget_tempe"
+            android:exported="false" />
+        <activity
+            android:name=".tempe_bacem"
+            android:exported="false" />
+        <activity
+            android:name=".ikan_kakap_asam_manis"
+            android:exported="false" />
+        <activity
+            android:name=".sup_ikan_kakap"
+            android:exported="false" />
+        <activity
             android:name=".resep_soto_medan"
             android:exported="false" />
         <activity
