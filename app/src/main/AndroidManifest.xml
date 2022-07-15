@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FDmassiveNDP">
         <activity
+            android:name=".chicken_katsu"
+            android:exported="false" />
+        <activity
             android:name=".sop_tahu"
             android:exported="false" />
         <activity
