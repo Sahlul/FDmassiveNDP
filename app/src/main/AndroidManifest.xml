@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FDmassiveNDP">
         <activity
+            android:name=".rujak_cingur"
+            android:exported="false" />
+        <activity
             android:name=".tumis_tempe_kacang_panjang"
             android:exported="false" />
         <activity
