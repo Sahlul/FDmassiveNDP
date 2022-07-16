@@ -104,7 +104,7 @@
                 android:layout_marginBottom="200dp"
                 android:layout_marginEnd="10dp"
                 android:layout_marginRight="10dp"
-                app:srcCompat="@drawable/tempebacem" />
+                app:srcCompat="@drawable/cem" />
 
             <TextView
                 android:layout_width="match_parent"
