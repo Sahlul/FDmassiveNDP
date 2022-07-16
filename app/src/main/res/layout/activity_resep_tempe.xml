@@ -8,19 +8,6 @@
     tools:context=".resep_tempe">
 
 
-    <TextView
-        android:id="@+id/textView31"
-        android:layout_width="125dp"
-        android:layout_height="18dp"
-        android:text="@string/rsptempe"
-        android:textColor="#000000"
-        android:textSize="15sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.16"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.2" />
 
     <ImageView
         android:id="@+id/jasonprofil"
@@ -40,13 +27,28 @@
         android:layout_height="17dp"
         android:text="Jason Maulana"
         android:textColor="#000000"
-        android:textSize="14sp"
+        android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.451"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.113" />
+
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="125dp"
+        android:layout_height="18dp"
+        android:text="@string/rspikankkp"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.16"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.199" />
 
     <TextView
         android:id="@+id/textView23"
@@ -60,145 +62,242 @@
         app:layout_constraintHorizontal_bias="0.127"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.237" />
-
-
-    <ImageView
-        android:id="@+id/imageView20"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.528"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.443"
-        app:srcCompat="@drawable/backgroundputih" />
-
-    <ImageView
-        android:id="@+id/imageView21"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.794"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.442"
-        app:srcCompat="@drawable/cem" />
-
-    <TextView
-        android:id="@+id/textView12"
-        android:layout_width="158dp"
-        android:layout_height="32dp"
-        android:text="Tempe Bacem"
-        android:textColor="#000000"
-        android:textSize="14sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.213"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.36" />
-
-
-    <TextView
-        android:id="@+id/textView13"
-        android:layout_width="155dp"
-        android:layout_height="126dp"
-        android:text="Haluskan semua bumbu halus dengan menggunakan blender. Tumis bumbu halus dengan lengkuas, daun salam, dan serai hingga matang dan harum"
-        android:textColor="#000000"
-        android:textSize="14sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.21"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.476" />
-
-
-    <ImageView
-        android:id="@+id/terbaru"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.819"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.537"
-        app:srcCompat="@drawable/vector" />
-
-
-    <ImageView
-        android:id="@+id/imageView19"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.528"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.94"
-        app:srcCompat="@drawable/backgroundputih" />
-
-    <ImageView
-        android:id="@+id/imageView27"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.79"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.885"
-        app:srcCompat="@drawable/nugettempe" />
+        app:layout_constraintVertical_bias="0.263" />
 
 
 
-    <TextView
-        android:id="@+id/textView14"
-        android:layout_width="158dp"
-        android:layout_height="32dp"
-        android:text="Nugget Tempe"
-        android:textColor="#000000"
-        android:textSize="14sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.213"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.721" />
 
-    <TextView
-        android:id="@+id/textView16"
-        android:layout_width="159dp"
-        android:layout_height="123dp"
-        android:text="Haluskan bawang putih, bawang merah, dan ketumbar. Campurkan tempe dengan bumbu halus"
-        android:textColor="#000000"
-        android:textSize="14sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.214"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.906" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="230dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="20dp"
+        app:layout_constraintVertical_bias="0.991">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
 
 
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.819"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.893"
-        app:srcCompat="@drawable/vector" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="-15dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginRight="10dp"
+                app:srcCompat="@drawable/backgroundputih" />
+
+            <ImageView
+                android:id="@+id/tempebacem"
+                android:layout_width="134dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="200dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="-180dp"
+                android:layout_marginBottom="200dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                app:srcCompat="@drawable/tempebacem" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="-370dp"
+                android:layout_marginEnd="100dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="200dp"
+                android:textSize="16sp"
+                android:text="Tempe Bacem"
+                android:textColor="@color/black" />
+
+
+            <TextView
+                android:layout_width="128dp"
+                android:layout_height="93dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="-180dp"
+                android:layout_marginEnd="100dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="130dp"
+                android:textSize="12sp"
+                android:text="Haluskan semua bumbu halus dengan menggunakan blender. Tumis bumbu halus dengan lengkuas, daun salam, dan serai hingga matang dan harum"
+                android:textColor="@color/black" />
+
+
+
+
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="-15dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginRight="10dp"
+                app:srcCompat="@drawable/backgroundputih" />
+
+            <ImageView
+                android:id="@+id/nuggettmp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="150dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="-180dp"
+                android:layout_marginBottom="200dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                app:srcCompat="@drawable/nugettempe" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="-370dp"
+                android:layout_marginEnd="100dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="200dp"
+                android:textSize="16sp"
+                android:text="Nugget Tempe"
+                android:textColor="@color/black" />
+
+
+            <TextView
+                android:layout_width="128dp"
+                android:layout_height="93dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="-180dp"
+                android:layout_marginEnd="100dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="130dp"
+                android:textSize="12sp"
+                android:text="Haluskan bawang putih, bawang merah, dan ketumbar. Campurkan tempe dengan bumbu halus"
+                android:textColor="@color/black" />
+
+
+
+
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="-15dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginRight="10dp"
+                app:srcCompat="@drawable/backgroundputih" />
+
+            <ImageView
+                android:id="@+id/brgtempe"
+                android:layout_width="134dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="200dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="-180dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="200dp"
+                app:srcCompat="@drawable/burgertempe" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="-320dp"
+                android:layout_marginEnd="100dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="210dp"
+                android:textSize="16sp"
+                android:text="Burger Tempe"
+                android:textColor="@color/black" />
+
+
+            <TextView
+                android:layout_width="128dp"
+                android:layout_height="93dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="-180dp"
+                android:layout_marginEnd="100dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="130dp"
+                android:textSize="12sp"
+                android:text="Hancurkan tempe dan beri bawang putih, telur, lada, kaldu bubuk, dan garam. Aduk hingga tercampur, lalu bentuk bulat pipih"
+                android:textColor="@color/black" />
+
+
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="-15dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginRight="10dp"
+                app:srcCompat="@drawable/backgroundputih" />
+
+            <ImageView
+                android:id="@+id/tumistempe"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="150dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="-180dp"
+                android:layout_marginBottom="200dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                app:srcCompat="@drawable/tumistempe" />
+
+            <TextView
+                android:layout_width="135dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="-370dp"
+                android:layout_marginEnd="100dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="210dp"
+                android:text="Tumis Tempe Kacang Panjang"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+
+            <TextView
+                android:layout_width="128dp"
+                android:layout_height="93dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="-180dp"
+                android:layout_marginEnd="100dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="180dp"
+                android:textSize="12sp"
+                android:text="Bersihkan ikan dan kerat-kerat, setelah itu beri air jeruk nipis dan garam kemudian cuci kembali ikan. Sisihkan..."
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
 
     <ImageView
         android:id="@+id/imageView7"
@@ -211,6 +310,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.998"
         app:srcCompat="@drawable/bottomnav" />
+
 
     <RelativeLayout
         android:layout_width="24dp"

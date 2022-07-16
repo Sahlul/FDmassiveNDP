@@ -13,6 +13,55 @@ public class rekomendasi_minuman_modern extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_rekomendasi_minuman_modern);
+
+        ImageView dalgonacoffe;
+        dalgonacoffe = findViewById(R.id.minumandalgona);
+        dalgonacoffe.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(rekomendasi_minuman_modern.this, dalgona_coffe.class));
+            }
+        });
+
+        ImageView blueocean;
+        blueocean = findViewById(R.id.minumanblueocean);
+        blueocean.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(rekomendasi_minuman_modern.this, blue_ocean.class));
+            }
+        });
+
+        ImageView taromilksahe;
+        taromilksahe = findViewById(R.id.minumantaromilk);
+        taromilksahe.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(rekomendasi_minuman_modern.this, taro_bubble_milkshake.class));
+            }
+        });
+
+        ImageView caramelmachi;
+        caramelmachi = findViewById(R.id.minumancaramel);
+        caramelmachi.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(rekomendasi_minuman_modern.this, caramel_machiato.class));
+            }
+        });
+
+
+
+
+
+
+
+
+
+
+
+
+
         ImageView profil;
         profil = findViewById(R.id.profil1);
         profil.setOnClickListener(new View.OnClickListener() {

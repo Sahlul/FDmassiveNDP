@@ -74,7 +74,7 @@ public class rekomendasi_makanan_tradisional extends AppCompatActivity {
         });
 
         ImageView ppsiknkmbg;
-        ppsiknkmbg= findViewById(R.id.makananiknkembung);
+        ppsiknkmbg= findViewById(R.id.makanansapothu);
         ppsiknkmbg.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

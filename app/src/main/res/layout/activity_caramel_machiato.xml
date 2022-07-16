@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".dalagona_coffe">
+    tools:context=".caramel_machiato">
 
     <ImageView
         android:id="@+id/imageView25"
@@ -16,10 +16,10 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.139"
-        app:srcCompat="@drawable/dalagonnacoffe" />
+        app:srcCompat="@drawable/caramelmacchiato" />
 
     <ListView
-        android:id="@+id/listresepiknkembg"
+        android:id="@+id/listresepcaramelmachiato"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginStart="10dp"
@@ -35,7 +35,7 @@
         android:id="@+id/textView22"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Dalagona Coffe"
+        android:text="Caramel Macchiato"
         android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -48,7 +48,7 @@
         android:id="@+id/imageView9"
         android:layout_width="24dp"
         android:layout_height="24dp"
-        android:onClick="openYoutube"
+        android:onClick="openYoutubecaramel"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.914"

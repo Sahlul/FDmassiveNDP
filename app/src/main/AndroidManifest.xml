@@ -10,10 +10,22 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FDmassiveNDP">
         <activity
+            android:name=".taro_bubble_milkshake"
+            android:exported="false" />
+        <activity
+            android:name=".caramel_machiato"
+            android:exported="false" />
+        <activity
+            android:name=".dalgona_coffe"
+            android:exported="false" />
+        <activity
+            android:name=".blue_ocean"
+            android:exported="false" />
+        <activity
             android:name=".chicken_katsu"
             android:exported="false" />
         <activity
-            android:name=".sop_tahu"
+            android:name=".sapo_tahu"
             android:exported="false" />
         <activity
             android:name=".setup_macaroni"

@@ -146,7 +146,7 @@
 
 
             <ImageView
-                android:id="@+id/stpmacaroni"
+                android:id="@+id/makananstpmacaroni"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginStart="10dp"
@@ -182,7 +182,7 @@
 
 
             <ImageView
-                android:id="@+id/makananiknkembung"
+                android:id="@+id/makanansapothu"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginStart="10dp"

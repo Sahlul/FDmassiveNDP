@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".caramel_macchiato">
-
+    tools:context=".dalgona_coffe">
     <ImageView
         android:id="@+id/imageView25"
         android:layout_width="324dp"
@@ -16,10 +15,10 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.139"
-        app:srcCompat="@drawable/caramelmacchiato" />
+        app:srcCompat="@drawable/dalagonnacoffe" />
 
     <ListView
-        android:id="@+id/listresepiknkembg"
+        android:id="@+id/listresepdalgonacoffe"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginStart="10dp"
@@ -27,15 +26,13 @@
         android:layout_marginTop="285dp"
         android:layout_marginEnd="10dp"
         android:layout_marginRight="20dp"
-        app:layout_constraintVertical_bias="0.991"
-
-        />
+        app:layout_constraintVertical_bias="0.991" />
 
     <TextView
         android:id="@+id/textView22"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Caramel Macchiato"
+        android:text="Dalagona Coffe"
         android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
