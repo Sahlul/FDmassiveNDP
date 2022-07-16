@@ -234,9 +234,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.977"
-        app:srcCompat="@drawable/home_nav"
-
-        />
+        app:srcCompat="@drawable/home_nav" />
 
     <ImageButton
         android:id="@+id/kereseptrbru"
