@@ -20,7 +20,7 @@ public class sapo_tahu extends AppCompatActivity {
         listview();
     }
     private void listview() {
-        ListView list = (ListView) findViewById(R.id.listresepblueocean);
+        ListView list = (ListView) findViewById(R.id.listresepsapotahu);
 
         String [] sapo_tahu = {"Bahan:\n" +
                 "1. 100 gram dada ayam (potong-potong kecil)\n" +

@@ -19,7 +19,7 @@ public class resep_minuman_bandrek extends AppCompatActivity {
         listview();
     }
         private void listview() {
-            ListView list = (ListView) findViewById(R.id.listresepburgertmp);
+            ListView list = (ListView) findViewById(R.id.listresepbandrek);
 
             String [] resep_bandrekjahe = {"Bahan :\n" +
                     "1. Susu cair\n" +

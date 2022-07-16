@@ -20,7 +20,7 @@ public class setup_macaroni extends AppCompatActivity {
         listview();
     }
     private void listview() {
-        ListView list = (ListView) findViewById(R.id.listresepblueocean);
+        ListView list = (ListView) findViewById(R.id.listreseptmpbacem);
 
         String [] setup_macaroni = {"Bahan :\n" +
                 "1. 4 roti burger atau roti bun dibagi menjadi dua\n" +

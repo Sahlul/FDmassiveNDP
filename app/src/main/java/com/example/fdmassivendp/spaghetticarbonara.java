@@ -20,7 +20,7 @@ public class spaghetticarbonara extends AppCompatActivity {
         listview();
     }
     private void listview() {
-        ListView list = (ListView) findViewById(R.id.listresepblueocean);
+        ListView list = (ListView) findViewById(R.id.listreseptmpbacem);
 
         String [] spaghetticarbonara = {"Bahan :\n" +
                 "1. Spaghetti - 200 gram\n" +

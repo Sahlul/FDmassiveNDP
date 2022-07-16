@@ -20,7 +20,7 @@
         app:srcCompat="@drawable/bandrekjahe" />
 
     <ListView
-        android:id="@+id/listresepburgertmp"
+        android:id="@+id/listresepbandrek"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginStart="10dp"

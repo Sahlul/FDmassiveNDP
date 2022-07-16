@@ -21,7 +21,7 @@ public class pepesikankembung extends AppCompatActivity {
     }
 
     private void listview() {
-        ListView list = (ListView) findViewById(R.id.listresepblueocean);
+        ListView list = (ListView) findViewById(R.id.listreseptmpbacem);
 
         String[] pepesikankembung = {"Bahan :\n" +
                 "1. 4 ekor ikan kembung\n" +
