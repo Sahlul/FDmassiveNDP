@@ -9,18 +9,6 @@
 
 
     <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.528"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.443"
-        app:srcCompat="@drawable/backgroundputih" />
-
-    <ImageView
         android:id="@+id/jasonprofil"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -75,125 +63,302 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.263" />
 
-    <TextView
-        android:id="@+id/textView12"
-        android:layout_width="158dp"
-        android:layout_height="32dp"
-        android:text="Gulai kepala ikan kakap"
-        android:textColor="#000000"
-        android:textSize="15sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.213"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.36" />
 
-    <TextView
-        android:id="@+id/textView13"
-        android:layout_width="158dp"
-        android:layout_height="93dp"
-        android:text="Lumuri kepala ikan dengan garam dan air jeruk. Diamkan 10 menit lalu cuci bersih ."
-        android:textColor="#000000"
-        android:textSize="12sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.213"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.467" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="230dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="20dp"
+        app:layout_constraintVertical_bias="0.991">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="-15dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginRight="10dp"
+                app:srcCompat="@drawable/backgroundputih" />
+
+            <ImageView
+                android:id="@+id/gulaikkp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="150dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="-180dp"
+                android:layout_marginBottom="200dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                app:srcCompat="@drawable/gilaikakap" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="-370dp"
+                android:layout_marginEnd="100dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="200dp"
+                android:textSize="16sp"
+                android:text="Gulai Ikan Kakap"
+                android:textColor="@color/black" />
+
+
+            <TextView
+                android:layout_width="128dp"
+                android:layout_height="93dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="-180dp"
+                android:layout_marginEnd="100dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="130dp"
+                android:textSize="12sp"
+                android:text="Lumuri kepala ikan dengan garam dan air jeruk. Diamkan 10 menit lalu cuci bersih ."
+                android:textColor="@color/black" />
+
+
+
+
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="-15dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginRight="10dp"
+                app:srcCompat="@drawable/backgroundputih" />
+
+            <ImageView
+                android:id="@+id/supikankkp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="150dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="-180dp"
+                android:layout_marginBottom="200dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                app:srcCompat="@drawable/supikan" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="-370dp"
+                android:layout_marginEnd="100dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="200dp"
+                android:textSize="16sp"
+                android:text="Sup ikan kakap"
+                android:textColor="@color/black" />
+
+
+            <TextView
+                android:layout_width="128dp"
+                android:layout_height="93dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="-180dp"
+                android:layout_marginEnd="100dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="130dp"
+                android:textSize="12sp"
+                android:text="Cuci bersih ikan, lalu potong sesuai selera. Lumuri dengan air perasan jeruk nipis dan 1 sdm garam hingga merata"
+                android:textColor="@color/black" />
+
+
+
+
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="-15dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginRight="10dp"
+                app:srcCompat="@drawable/backgroundputih" />
+
+            <ImageView
+                android:id="@+id/ikankkpasammanis"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="150dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="-180dp"
+                android:layout_marginBottom="200dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                app:srcCompat="@drawable/kakapasammanis" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="-370dp"
+                android:layout_marginEnd="100dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="210dp"
+                android:textSize="16sp"
+                android:text="Ikan kakap asam manis"
+                android:textColor="@color/black" />
+
+
+            <TextView
+                android:layout_width="128dp"
+                android:layout_height="93dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="-180dp"
+                android:layout_marginEnd="100dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="130dp"
+                android:textSize="12sp"
+                android:text="Lumuri ikan kakap dengan air perasan jeruk nipis dan taburi dengan sedikit garam dan lada. Diamkan 10 menit di dalam ....."
+                android:textColor="@color/black" />
+
+
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="-15dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginRight="10dp"
+                app:srcCompat="@drawable/backgroundputih" />
+
+            <ImageView
+                android:id="@+id/timikankkp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="150dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="-180dp"
+                android:layout_marginBottom="200dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                app:srcCompat="@drawable/timikankakap" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="-370dp"
+                android:layout_marginEnd="100dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="210dp"
+                android:textSize="16sp"
+                android:text="Tim ikan kakap"
+                android:textColor="@color/black" />
+
+
+            <TextView
+                android:layout_width="128dp"
+                android:layout_height="93dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="-180dp"
+                android:layout_marginEnd="100dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="180dp"
+                android:textSize="12sp"
+                android:text="Bersihkan ikan dan kerat-kerat, setelah itu beri air jeruk nipis dan garam kemudian cuci kembali ikan. Sisihkan..."
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
 
     <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/imageView7"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.79"
+        app:layout_constraintHorizontal_bias="0.686"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.442"
-        app:srcCompat="@drawable/gilaikakap" />
+        app:layout_constraintVertical_bias="0.998"
+        app:srcCompat="@drawable/bottomnav" />
 
-    <ImageView
-        android:id="@+id/terbaru"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+
+    <RelativeLayout
+        android:layout_width="24dp"
+        android:layout_height="24dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.819"
+        app:layout_constraintHorizontal_bias="0.852"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.537"
-        app:srcCompat="@drawable/vector" />
+        app:layout_constraintVertical_bias="0.977">
 
+        <ImageView
+            android:id="@+id/profil1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/gg_profile" />
+    </RelativeLayout>
 
-    <ImageView
-        android:id="@+id/imageView19"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <RelativeLayout
+        android:id="@+id/relativeLayout3"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.528"
+        app:layout_constraintHorizontal_bias="0.485"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.94"
-        app:srcCompat="@drawable/backgroundputih" />
+        app:layout_constraintVertical_bias="0.977">
 
-    <TextView
-        android:id="@+id/textView14"
-        android:layout_width="158dp"
-        android:layout_height="32dp"
-        android:text="Sup ikan kakap"
-        android:textColor="#000000"
-        android:textSize="15sp"
-        android:textStyle="bold"
+        <ImageView
+            android:id="@+id/add1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/plus" />
+    </RelativeLayout>
+
+    <ImageButton
+        android:id="@+id/home1"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:backgroundTint="@color/navi"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.213"
+        app:layout_constraintHorizontal_bias="0.139"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.721" />
+        app:layout_constraintVertical_bias="0.977"
+        app:srcCompat="@drawable/home_nav"
 
-    <TextView
-        android:id="@+id/textView16"
-        android:layout_width="159dp"
-        android:layout_height="123dp"
-        android:text="Cuci bersih ikan, lalu potong sesuai selera. Lumuri dengan air perasan jeruk nipis dan 1 sdm garam hingga merata..."
-        android:textColor="#000000"
-        android:textSize="12sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.214"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.906" />
-
-    <ImageView
-        android:id="@+id/imageView16"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="40dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.924"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.884"
-        app:srcCompat="@drawable/supikan" />
-
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.819"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.893"
-        app:srcCompat="@drawable/vector" />
-
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

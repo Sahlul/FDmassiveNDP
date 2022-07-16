@@ -68,8 +68,8 @@
 
     <ImageButton
         android:id="@+id/keresepikankkp"
-        android:layout_width="327dp"
-        android:layout_height="122dp"
+        android:layout_width="312dp"
+        android:layout_height="123dp"
         android:background="@color/bckround"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -80,21 +80,20 @@
         app:srcCompat="@drawable/ikan" />
 
 
-
     <TextView
         android:id="@+id/textView19"
         android:layout_width="149dp"
-        android:layout_height="25dp"
+        android:layout_height="18dp"
         android:layout_marginStart="8dp"
         android:text="Ikan Kakap"
         android:textColor="#000000"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.125"
+        app:layout_constraintHorizontal_bias="0.094"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.453" />
+        app:layout_constraintVertical_bias="0.455" />
 
     <ImageButton
         android:id="@+id/rspmakdanmin"
@@ -106,7 +105,7 @@
         app:layout_constraintHorizontal_bias="0.343"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.619"
+        app:layout_constraintVertical_bias="0.637"
         app:srcCompat="@drawable/makndmni" />
 
     <TextView
@@ -121,7 +120,7 @@
         app:layout_constraintHorizontal_bias="0.111"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.714" />
+        app:layout_constraintVertical_bias="0.727" />
 
     <ImageView
         android:id="@+id/jasonprofil"
@@ -234,10 +233,10 @@
         android:background="@color/bckround"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.933"
+        app:layout_constraintHorizontal_bias="0.928"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.713"
+        app:layout_constraintVertical_bias="0.73"
         app:srcCompat="@drawable/arrow" />
 
     <HorizontalScrollView
@@ -248,7 +247,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.838"
+        app:layout_constraintVertical_bias="0.865"
         tools:ignore="SpeakableTextPresentCheck">
 
         <androidx.constraintlayout.widget.ConstraintLayout
@@ -295,7 +294,7 @@
         app:layout_constraintHorizontal_bias="0.932"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.219"
+        app:layout_constraintVertical_bias="0.23"
         app:srcCompat="@drawable/ic_arrow___left" />
 
 

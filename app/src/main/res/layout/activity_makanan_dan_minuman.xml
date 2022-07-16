@@ -80,7 +80,7 @@
         app:layout_constraintHorizontal_bias="0.103"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.661" />
+        app:layout_constraintVertical_bias="0.642" />
 
     <ImageButton
         android:id="@+id/resepminuman"
@@ -91,7 +91,7 @@
         app:layout_constraintHorizontal_bias="0.363"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/searchView"
-        app:layout_constraintVertical_bias="0.248"
+        app:layout_constraintVertical_bias="0.221"
         app:srcCompat="@drawable/minuman" />
 
     <TextView
@@ -106,19 +106,19 @@
         app:layout_constraintHorizontal_bias="0.103"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.303" />
+        app:layout_constraintVertical_bias="0.288" />
 
     <ImageButton
         android:id="@+id/resepmakanan"
-        android:layout_width="312dp"
-        android:layout_height="179dp"
+        android:layout_width="315dp"
+        android:layout_height="130dp"
         android:background="@color/bckround"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.333"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/resepminuman"
-        app:layout_constraintVertical_bias="0.422"
+        app:layout_constraintVertical_bias="0.361"
         app:srcCompat="@drawable/makndmni" />
 
     <ImageView

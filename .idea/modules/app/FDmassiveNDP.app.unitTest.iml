@@ -124,5 +124,4 @@
     <orderEntry type="library" scope="TEST" name="Gradle: io.grpc:grpc-android:1.44.1@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: com.android.support:exifinterface:27.1.0@aar" level="project" />
   </component>
-  <component name="TestModuleProperties" production-module="FDmassiveNDP.app.main" />
 </module>
