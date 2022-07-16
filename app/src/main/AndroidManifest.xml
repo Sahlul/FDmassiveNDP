@@ -37,7 +37,7 @@
             android:name=".pepesikankembung"
             android:exported="false" />
         <activity
-            android:name=".rujak_cingur"
+            android:name=".resep_rujak_cingur"
             android:exported="false" />
         <activity
             android:name=".tumis_tempe_kacang_panjang"

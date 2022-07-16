@@ -23,7 +23,7 @@ public class resep_soto_medan extends AppCompatActivity {
     }
 
     private void listview() {
-        ListView list = (ListView) findViewById(R.id.listresepsotomedan);
+        ListView list = (ListView) findViewById(R.id.listresepiknkembg);
 
         String[] resep_soto_medan = {"Bahan :\n" +
                 "1. Ayam, potong jadi 4 bagian - 1 ekor\n" +

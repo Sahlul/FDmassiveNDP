@@ -64,5 +64,23 @@ public class rekomendasi_makanan_tradisional extends AppCompatActivity {
             }
         });
 
+        ImageView mknrujak;
+        mknrujak= findViewById(R.id.makananrujak);
+        mknrujak.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(rekomendasi_makanan_tradisional.this,resep_rujak_cingur.class));
+            }
+        });
+
+        ImageView ppsiknkmbg;
+        ppsiknkmbg= findViewById(R.id.makananiknkembung);
+        ppsiknkmbg.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(rekomendasi_makanan_tradisional.this,pepesikankembung.class));
+            }
+        });
+
     }
 }

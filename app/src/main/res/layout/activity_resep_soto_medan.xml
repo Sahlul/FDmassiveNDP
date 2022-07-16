@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".resep_soto_medan">
+
     <ImageView
         android:id="@+id/imageView25"
         android:layout_width="324dp"
@@ -18,7 +19,7 @@
         app:srcCompat="@drawable/sotomedan" />
 
     <ListView
-        android:id="@+id/listresepsotomedan"
+        android:id="@+id/listresepiknkembg"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginStart="10dp"
