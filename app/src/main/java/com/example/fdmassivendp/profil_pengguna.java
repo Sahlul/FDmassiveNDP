@@ -42,7 +42,6 @@ public class profil_pengguna extends AppCompatActivity {
     FirebaseFirestore fstore;
     FirebaseUser user;
     String userId;
-
     FirebaseFirestore db = FirebaseFirestore.getInstance();
     TextView name,email,notelp;
     StorageReference storageReference;
