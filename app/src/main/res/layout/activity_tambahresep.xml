@@ -55,6 +55,7 @@
             app:srcCompat="@drawable/plus" />
     </RelativeLayout>
 
+
     <ImageView
         android:id="@+id/imageView29"
         android:layout_width="319dp"
@@ -63,67 +64,84 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.044"
+        app:layout_constraintVertical_bias="0.028"
         app:srcCompat="@drawable/tamabahkanpotoresep" />
-
 
     <EditText
         android:id="@+id/jdulmasakan"
-        android:layout_width="275dp"
+        android:layout_width="298dp"
         android:layout_height="33dp"
         android:background="@drawable/backform"
         android:backgroundTint="#FFFFFF"
-        app:cornerRadius="10dp"
         android:hint="Judul Masakan"
+        app:cornerRadius="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.31" />
+        app:layout_constraintVertical_bias="0.303" />
 
     <EditText
         android:id="@+id/ketresep"
-        android:layout_width="274dp"
+        android:layout_width="298dp"
         android:layout_height="87dp"
         android:background="@drawable/backform"
         android:backgroundTint="#FFFFFF"
-        app:cornerRadius="10dp"
         android:hint="keterangan resep"
+        app:cornerRadius="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.419" />
+        app:layout_constraintVertical_bias="0.406" />
 
     <EditText
         android:id="@+id/formbahan"
-        android:layout_width="275dp"
-        android:layout_height="87dp"
+        android:layout_width="298dp"
+        android:layout_height="75dp"
         android:background="@drawable/backform"
         android:backgroundTint="#FFFFFF"
-        app:cornerRadius="10dp"
         android:hint="Bahan-Bahan"
+        app:cornerRadius="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.59" />
+        app:layout_constraintVertical_bias="0.565" />
 
     <EditText
         android:id="@+id/lngkahpembuatan"
-        android:layout_width="275dp"
-        android:layout_height="150dp"
+        android:layout_width="298dp"
+        android:layout_height="123dp"
         android:background="@drawable/backform"
         android:backgroundTint="#FFFFFF"
-        app:cornerRadius="10dp"
         android:hint="Langkah Pembuatan"
+        app:cornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.779" />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="187dp"
+        android:layout_height="43dp"
+        android:backgroundTint="@color/button"
+        android:text="Tambah Resep"
+        android:textColor="#000000"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        app:cornerRadius="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.845" />
+        app:layout_constraintVertical_bias="0.889" />
 
     <RelativeLayout
         android:layout_width="24dp"
@@ -144,3 +162,5 @@
     </RelativeLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+
+

@@ -11,6 +11,7 @@ import android.content.Context;
 import android.content.Intent;
 
 import android.content.SharedPreferences;
+import android.net.Uri;
 import android.os.Bundle;
 
 import android.util.Log;
@@ -21,19 +22,32 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
+import com.google.firebase.storage.FirebaseStorage;
+import com.google.firebase.storage.StorageReference;
+import com.squareup.picasso.Picasso;
 
 
 public class profil_pengguna extends AppCompatActivity {
 
+    FirebaseAuth fauth;
+    FirebaseFirestore fstore;
+    FirebaseUser user;
+    String userId;
 
     FirebaseFirestore db = FirebaseFirestore.getInstance();
     TextView name,email,notelp;
+    StorageReference storageReference;
+    DatabaseReference databaseUsers;
+    ImageView imageview4;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -41,7 +55,16 @@ public class profil_pengguna extends AppCompatActivity {
 
 
 
+        imageview4 = findViewById(R.id.imageView4);
 
+        fauth = FirebaseAuth.getInstance();
+        fstore = FirebaseFirestore.getInstance();
+        storageReference = FirebaseStorage.getInstance().getReference();
+
+        userId = fauth.getCurrentUser().getUid();
+        user = fauth.getCurrentUser();
+
+        databaseUsers = FirebaseDatabase.getInstance().getReference();
         name = findViewById(R.id.usernameprofil);
         email = findViewById(R.id.emailprofil);
         notelp = findViewById(R.id.notelpprofil);
@@ -98,6 +121,13 @@ public class profil_pengguna extends AppCompatActivity {
         });
 
 
+        StorageReference profileref = storageReference.child("user/"+fauth.getCurrentUser().getUid()+"/profile.jpg");
+        profileref.getDownloadUrl().addOnSuccessListener(new OnSuccessListener<Uri>() {
+            @Override
+            public void onSuccess(Uri uri) {
+                Picasso.get().load(uri).into(imageview4);
+            }
+        });
 
 
     }

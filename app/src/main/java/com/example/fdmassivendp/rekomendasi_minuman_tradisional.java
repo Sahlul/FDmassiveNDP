@@ -50,5 +50,14 @@ public class rekomendasi_minuman_tradisional extends AppCompatActivity {
                 startActivity(new Intent(rekomendasi_minuman_tradisional.this,resep_minuman_bandrek.class));
             }
         });
+
+        ImageView minumancendoldawet;
+        minumancendoldawet= findViewById(R.id.minumancendoldawet);
+        minumancendoldawet.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(rekomendasi_minuman_tradisional.this,resep_cendol_dawet.class));
+            }
+        });
     }
 }

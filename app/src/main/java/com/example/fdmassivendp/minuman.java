@@ -22,6 +22,14 @@ public class minuman extends AppCompatActivity {
 
 
 
+        ImageView keminumancendoldwet;
+        keminumancendoldwet = findViewById(R.id.minumancendoldawet);
+        keminumancendoldwet.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(minuman.this, resep_cendol_dawet.class));
+            }
+        });
 
         ImageView keminumantradisional;
         keminumantradisional = findViewById(R.id.keminumantradisional);

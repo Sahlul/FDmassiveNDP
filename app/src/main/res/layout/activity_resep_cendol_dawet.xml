@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/bckround"
-    tools:context=".cendoldawet">
+    tools:context=".resep_cendol_dawet">
+
 
     <ImageView
         android:id="@+id/imageView25"
@@ -20,7 +20,7 @@
         app:srcCompat="@drawable/cendoldawet" />
 
     <ListView
-        android:id="@+id/listreseptmpbacem"
+        android:id="@+id/listresepcendoldawet"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginStart="10dp"
@@ -49,7 +49,7 @@
         android:id="@+id/imageView9"
         android:layout_width="24dp"
         android:layout_height="24dp"
-        android:onClick="openYoutube"
+        android:onClick="openYoutubecendoldawet"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.914"
@@ -69,6 +69,5 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.275"
         app:srcCompat="@drawable/vector" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

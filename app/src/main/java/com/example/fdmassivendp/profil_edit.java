@@ -65,6 +65,8 @@ public class profil_edit extends AppCompatActivity {
         userId = fauth.getCurrentUser().getUid();
         user = fauth.getCurrentUser();
 
+
+
         name = findViewById(R.id.edusername);
         email = findViewById(R.id.edemail);
         notelp = findViewById(R.id.ednotelp);
@@ -121,17 +123,6 @@ public class profil_edit extends AppCompatActivity {
         String id = databaseUsers.push().getKey();
 
         User user = new User(username, useremail, usernotelp);
-        /*databaseUsers.child("user").child(id).setValue(user)
-                .addOnCompleteListener(new OnCompleteListener<Void>() {
-                    @Override
-                    public void onComplete(@NonNull Task<Void> task) {
-                        if (task.isSuccessful())
-                        {
-                            Toast.makeText(profil_edit.this, "berhasil",Toast.LENGTH_SHORT).show();
-                        }
-                    }
-                });
-*/
 
 // Add a new document with a generated ID
         db.collection("users").document(useremail)

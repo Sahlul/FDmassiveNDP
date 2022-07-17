@@ -16,6 +16,30 @@ public class resep_ikan_kakap extends AppCompatActivity {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+        ImageView timikankkp;
+        timikankkp = findViewById(R.id.timikankkp);
+        timikankkp.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(resep_ikan_kakap.this, resep_tim_ikan_kakap.class));
+            }
+        });
+
+
+
         ImageView profil;
         profil = findViewById(R.id.profil1);
         profil.setOnClickListener(new View.OnClickListener() {
