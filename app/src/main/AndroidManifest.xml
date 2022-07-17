@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FDmassiveNDP">
         <activity
+            android:name=".nugget_jamur"
+            android:exported="false" />
+        <activity
+            android:name=".tongseng_jamur_tiram"
+            android:exported="false" />
+        <activity
+            android:name=".jamur_tiram_kuah_santan"
+            android:exported="false" />
+        <activity
+            android:name=".jamur_crispy"
+            android:exported="false" />
+        <activity
             android:name=".resep_cendol_dawet"
             android:exported="false" />
         <activity
