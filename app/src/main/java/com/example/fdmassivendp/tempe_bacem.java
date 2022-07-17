@@ -57,9 +57,9 @@ public class tempe_bacem extends AppCompatActivity {
     }
 
     public void openYoutube(View view) {
-        Intent appIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("vnd.youtube:MZERuh-qF9I"));
+        Intent appIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("vnd.youtube:2t4rmQX62W4"));
         Intent webIntent = new Intent(Intent.ACTION_VIEW,
-                Uri.parse("http://www.youtube.com/watch?v=MZERuh-qF9I"));
+                Uri.parse("http://www.youtube.com/watch?v=2t4rmQX62W4"));
         try {
             startActivity(appIntent);
         } catch (ActivityNotFoundException ex) {

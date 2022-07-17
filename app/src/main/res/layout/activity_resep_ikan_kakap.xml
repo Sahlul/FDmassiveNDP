@@ -214,17 +214,17 @@
                 app:srcCompat="@drawable/kakapasammanis" />
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_width="136dp"
+                android:layout_height="wrap_content"
                 android:layout_marginStart="50dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="-370dp"
                 android:layout_marginEnd="100dp"
                 android:layout_marginRight="20dp"
                 android:layout_marginBottom="210dp"
-                android:textSize="16sp"
                 android:text="Ikan kakap asam manis"
-                android:textColor="@color/black" />
+                android:textColor="@color/black"
+                android:textSize="16sp" />
 
 
             <TextView

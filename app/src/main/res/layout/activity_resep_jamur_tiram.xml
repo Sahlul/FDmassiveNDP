@@ -7,4 +7,357 @@
     android:background="@color/bckround"
     tools:context=".resep_jamur_tiram">
 
+    <ImageView
+        android:id="@+id/jasonprofil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.128"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.09"
+        app:srcCompat="@drawable/poto_jason" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="154dp"
+        android:layout_height="17dp"
+        android:text="Jason Maulana"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.451"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.113" />
+
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="125dp"
+        android:layout_height="18dp"
+        android:text="@string/rspikankkp"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.16"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.199" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Terbaru"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.127"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.263" />
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="230dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="20dp"
+        app:layout_constraintVertical_bias="0.991">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="-15dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginRight="10dp"
+                app:srcCompat="@drawable/backgroundputih" />
+
+            <ImageView
+                android:id="@+id/jamurcrispy"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="200dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="-180dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="200dp"
+                app:srcCompat="@drawable/jamurrcrispy" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="-370dp"
+                android:layout_marginEnd="100dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="200dp"
+                android:textSize="16sp"
+                android:text="Jamur Crispy"
+                android:textColor="@color/black" />
+
+
+            <TextView
+                android:layout_width="128dp"
+                android:layout_height="93dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="-180dp"
+                android:layout_marginEnd="100dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="130dp"
+                android:textSize="12sp"
+                android:text=" Kocok telur hingga berbusa dan tambahkan garam.
+"
+                android:textColor="@color/black" />
+
+
+
+
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="-15dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginRight="10dp"
+                app:srcCompat="@drawable/backgroundputih" />
+
+            <ImageView
+                android:id="@+id/jamurkuahsantan"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="180dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="-180dp"
+                android:layout_marginBottom="200dp"
+                android:layout_marginEnd="60dp"
+                android:layout_marginRight="10dp"
+                app:srcCompat="@drawable/jamurkuahsantan" />
+
+            <TextView
+                android:layout_width="129dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="-370dp"
+                android:layout_marginEnd="100dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="200dp"
+                android:text="Jamur Tiram Kuah Santan"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+
+            <TextView
+                android:layout_width="128dp"
+                android:layout_height="93dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="-180dp"
+                android:layout_marginEnd="100dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="130dp"
+                android:textSize="12sp"
+                android:text="Cuci bersih jamur tiram kemudian peras airnya. Ini bertujuan agar aroma jamur tidak terlalu menyengat."
+                android:textColor="@color/black" />
+
+
+
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="-15dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginRight="10dp"
+                app:srcCompat="@drawable/backgroundputih" />
+
+            <ImageView
+                android:id="@+id/tongsengjamurtiram"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="180dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="-180dp"
+                android:layout_marginBottom="200dp"
+                android:layout_marginEnd="60dp"
+                android:layout_marginRight="10dp"
+                app:srcCompat="@drawable/tongsengjamur" />
+
+            <TextView
+                android:layout_width="129dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="-370dp"
+                android:layout_marginEnd="100dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="200dp"
+                android:text="Tongseng Jamur Tiram"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+
+            <TextView
+                android:layout_width="128dp"
+                android:layout_height="93dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="-180dp"
+                android:layout_marginEnd="100dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="130dp"
+                android:textSize="12sp"
+                android:text="Cuci bersih jamur tiram kemudian peras airnya. Ini bertujuan agar aroma jamur tidak terlalu menyengat."
+                android:textColor="@color/black" />
+
+
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="-15dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginRight="10dp"
+                app:srcCompat="@drawable/backgroundputih" />
+
+            <ImageView
+                android:id="@+id/nuggetjamur"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="180dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="-180dp"
+                android:layout_marginBottom="200dp"
+                android:layout_marginEnd="60dp"
+                android:layout_marginRight="10dp"
+                app:srcCompat="@drawable/nuggetjamur" />
+
+            <TextView
+                android:layout_width="135dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="-370dp"
+                android:layout_marginEnd="100dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="210dp"
+                android:text="Nugget Jamur"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+
+            <TextView
+                android:layout_width="128dp"
+                android:layout_height="93dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="-180dp"
+                android:layout_marginEnd="100dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="180dp"
+                android:textSize="12sp"
+                android:text="Bersihkan jamur tiram lalu peras sampai airnya kering"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.686"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.998"
+        app:srcCompat="@drawable/bottomnav" />
+
+
+    <RelativeLayout
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.852"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.977">
+
+        <ImageView
+            android:id="@+id/profil1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/gg_profile" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout3"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.977">
+
+        <ImageView
+            android:id="@+id/add1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/plus" />
+    </RelativeLayout>
+
+    <ImageButton
+        android:id="@+id/home1"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:backgroundTint="@color/navi"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.139"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.977"
+        app:srcCompat="@drawable/home_nav"
+
+        />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

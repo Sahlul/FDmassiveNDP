@@ -8,6 +8,18 @@
     android:background="@color/bckround">
 
 
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="57dp"
+        android:layout_height="57dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.07"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+        app:srcCompat="@drawable/poto_jason" />
+
     <Button
         android:id="@+id/button5"
         android:layout_width="138dp"
@@ -79,18 +91,6 @@
             android:background="@color/navi"
             app:srcCompat="@drawable/plus" />
     </RelativeLayout>
-
-    <ImageView
-        android:id="@+id/jasonprofil"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.06"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.028"
-        app:srcCompat="@drawable/poto_jason" />
 
     <TextView
         android:id="@+id/textView15"

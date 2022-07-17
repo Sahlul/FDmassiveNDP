@@ -67,9 +67,9 @@ public class nugget_tempe extends AppCompatActivity {
     }
 
     public void openYoutube(View view) {
-        Intent appIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("vnd.youtube:2t4rmQX62W4"));
+        Intent appIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("vnd.youtube:MZERuh-qF9I"));
         Intent webIntent = new Intent(Intent.ACTION_VIEW,
-                Uri.parse("http://www.youtube.com/watch?v=2t4rmQX62W4"));
+                Uri.parse("http://www.youtube.com/watch?v=MZERuh-qF9I"));
         try {
             startActivity(appIntent);
         } catch (ActivityNotFoundException ex) {

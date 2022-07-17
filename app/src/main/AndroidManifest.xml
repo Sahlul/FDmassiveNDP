@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FDmassiveNDP">
         <activity
+            android:name=".gulai_kepala_ikan_kakap"
+            android:exported="false" />
+        <activity
+            android:name=".resep_jamur_tiram"
+            android:exported="false" />
+        <activity
             android:name=".nugget_jamur"
             android:exported="false" />
         <activity
@@ -20,6 +26,9 @@
             android:exported="false" />
         <activity
             android:name=".jamur_crispy"
+            android:exported="false" />
+        <activity
+            android:name=".resepsaya_simpan"
             android:exported="false" />
         <activity
             android:name=".resep_cendol_dawet"
@@ -110,9 +119,6 @@
             android:exported="false" />
         <activity
             android:name=".rekomendasi_makanan_tradisional"
-            android:exported="false" />
-        <activity
-            android:name=".resep_jamur_tiram"
             android:exported="false" />
         <activity
             android:name=".resep_tempe"

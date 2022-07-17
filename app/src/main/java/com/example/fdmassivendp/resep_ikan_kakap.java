@@ -14,17 +14,35 @@ public class resep_ikan_kakap extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_resep_ikan_kakap);
 
+        ImageView gulaikkp;
+        gulaikkp = findViewById(R.id.gulaikkp);
+        gulaikkp.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(resep_ikan_kakap.this, gulai_kepala_ikan_kakap.class));
+            }
+        });
+
+
+        ImageView supiknkkpp;
+        supiknkkpp = findViewById(R.id.supikankkp);
+        supiknkkpp.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(resep_ikan_kakap.this, sup_ikan_kakap.class));
+            }
+        });
 
 
 
-
-
-
-
-
-
-
-
+        ImageView ikankkpasammanis;
+        ikankkpasammanis = findViewById(R.id.ikankkpasammanis);
+        ikankkpasammanis.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(resep_ikan_kakap.this, sup_ikan_kakap.class));
+            }
+        });
 
 
 

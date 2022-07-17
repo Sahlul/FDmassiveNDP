@@ -42,6 +42,8 @@ public class rekomendasi_minuman_tradisional extends AppCompatActivity {
         });
 
 
+
+
         ImageView minumanbandrekjahe;
         minumanbandrekjahe= findViewById(R.id.minumanbandrekjahe);
         minumanbandrekjahe.setOnClickListener(new View.OnClickListener() {
@@ -59,5 +61,8 @@ public class rekomendasi_minuman_tradisional extends AppCompatActivity {
                 startActivity(new Intent(rekomendasi_minuman_tradisional.this,resep_cendol_dawet.class));
             }
         });
+
+
+
     }
 }
