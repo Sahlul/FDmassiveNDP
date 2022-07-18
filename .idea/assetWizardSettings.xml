@@ -92,6 +92,8 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
+                                                <entry key="fontFamily" value="Calisto MT" />
+                                                <entry key="text" value="FDrecipes" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -103,6 +105,8 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
+                                                <entry key="fontFamily" value="Calisto MT" />
+                                                <entry key="text" value="FDrecipes" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -113,8 +117,8 @@
                                   <option name="values">
                                     <map>
                                       <entry key="backgroundAssetType" value="COLOR" />
-                                      <entry key="backgroundColor" value="ffffff" />
-                                      <entry key="outputName" value="logoapp" />
+                                      <entry key="foregroundAssetType" value="TEXT" />
+                                      <entry key="outputName" value="text_icon" />
                                     </map>
                                   </option>
                                 </PersistentState>
