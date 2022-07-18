@@ -79,6 +79,8 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
+                                                <entry key="imagePath" value="C:\Users\user\Downloads\Logo FD Recipes fix.png" />
+                                                <entry key="scalingPercent" value="67" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -106,6 +108,13 @@
                                           </PersistentState>
                                         </value>
                                       </entry>
+                                    </map>
+                                  </option>
+                                  <option name="values">
+                                    <map>
+                                      <entry key="backgroundAssetType" value="COLOR" />
+                                      <entry key="backgroundColor" value="ffffff" />
+                                      <entry key="outputName" value="logoapp" />
                                     </map>
                                   </option>
                                 </PersistentState>

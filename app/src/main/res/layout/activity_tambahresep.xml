@@ -73,10 +73,10 @@
         android:layout_height="26dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.29"
+        app:layout_constraintHorizontal_bias="0.851"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.204"
+        app:layout_constraintVertical_bias="0.211"
         app:srcCompat="@drawable/potoedit" />
 
     <EditText

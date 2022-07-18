@@ -86,14 +86,14 @@ public class profil extends AppCompatActivity {
         });
 
 
-        ImageView ibtn23;
+        /*ImageView ibtn23;
         ibtn23= findViewById(R.id.imageView23);
         ibtn23.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(profil.this,resep_lontong_medan.class));
             }
-        });
+        });*/
 
         ImageView ibtn22;
         ibtn22= findViewById(R.id.imageView22);
