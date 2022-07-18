@@ -1,6 +1,9 @@
 package com.example.fdmassivendp;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -15,12 +18,17 @@ import android.widget.TextView;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 import com.squareup.picasso.Picasso;
+
+import java.util.ArrayList;
 
 public class profil extends AppCompatActivity {
 
@@ -29,8 +37,19 @@ public class profil extends AppCompatActivity {
     FirebaseUser user;
     String userId;
     StorageReference storageReference;
-    DatabaseReference databaseUsers;
+    DatabaseReference databaseUsers,databaseresep;
     ImageView imageview3;
+    RecyclerView simpanresep;
+    ArrayList<resep> list;
+    DatabaseReference databaseReference;
+    MyAdapter adapter;
+
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        startActivity(new Intent(profil.this,tambahresep.class));
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,6 +66,7 @@ public class profil extends AppCompatActivity {
         user = fauth.getCurrentUser();
 
         databaseUsers = FirebaseDatabase.getInstance().getReference();
+        databaseresep = FirebaseDatabase.getInstance().getReference();
 
         StorageReference profileref = storageReference.child("user/"+fauth.getCurrentUser().getUid()+"/profile.jpg");
         profileref.getDownloadUrl().addOnSuccessListener(new OnSuccessListener<Uri>() {
@@ -55,6 +75,33 @@ public class profil extends AppCompatActivity {
                 Picasso.get().load(uri).into(imageview3);
             }
         });
+
+        simpanresep = findViewById(R.id.reseptersimpan);
+        databaseresep = FirebaseDatabase.getInstance().getReference();
+        list = new ArrayList<>();
+        simpanresep.setLayoutManager(new LinearLayoutManager(this));
+        adapter = new MyAdapter(this,list);
+        simpanresep.setAdapter(adapter);
+
+        databaseresep.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot snapshot) {
+                for (DataSnapshot dataSnapshot : snapshot.getChildren()) {
+
+                    resep resep = dataSnapshot.getValue(resep.class);
+                    list.add(resep);
+
+                }
+                adapter.notifyDataSetChanged();
+
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError error) {
+
+            }
+        });
+
 
 
 
