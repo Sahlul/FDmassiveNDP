@@ -21,7 +21,7 @@ public class nila_asam_manis extends AppCompatActivity {
     }
 
     private void listview() {
-        ListView list = (ListView) findViewById(R.id.listreseptmpbacem);
+        ListView list = (ListView) findViewById(R.id.listresepnilaasam);
 
         String[] nila_asam_manis = {"Bahan :\n" +
                 "1. 1 ekor ikan nila, belah jadi 2 bagian lalu bersihkan \n" +

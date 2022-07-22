@@ -44,7 +44,18 @@ public class halaman_register extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 registrasi();
+                validasi();
             }
+
+            private void validasi() {
+                if (regpassword1.equals(regpassword2)) {
+                    startActivity(new Intent (halaman_register.this,home_screen.class));
+                }
+                else {
+                    Toast.makeText(halaman_register.this, "Password not matched", Toast.LENGTH_SHORT).show();
+                }
+            }
+
         });
 
     }
@@ -88,14 +99,10 @@ public class halaman_register extends AppCompatActivity {
 
                             startActivity(new Intent (halaman_register.this,home_screen.class));
                         }
-                        else {
-                            Toast.makeText(halaman_register.this, "Password Tidak Sama", Toast.LENGTH_SHORT).show();
-                        }
+                        
                     }
 
-                    {
 
-                    }
 
                 });
     }

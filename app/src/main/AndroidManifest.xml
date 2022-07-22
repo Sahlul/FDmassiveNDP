@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FDmassiveNDP">
         <activity
+            android:name=".orangeblue_ocean"
+            android:exported="false" />
+        <activity
             android:name=".gulai_kepala_ikan_kakap"
             android:exported="false" />
         <activity

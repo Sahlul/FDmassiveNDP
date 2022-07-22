@@ -132,6 +132,15 @@ public class home_screen extends AppCompatActivity {
             }
         });
 
+        ImageView supikankkp;
+        supikankkp = findViewById(R.id.makananrekomendasi1);
+        supikankkp.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(home_screen.this, sup_ikan_kakap.class));
+            }
+        });
+
 
 
 

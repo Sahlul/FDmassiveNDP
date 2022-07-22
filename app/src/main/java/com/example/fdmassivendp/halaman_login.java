@@ -49,6 +49,11 @@ public class halaman_login extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 ceklogin();
+                validasi();
+            }
+
+            private void validasi() {
+
             }
         });
 

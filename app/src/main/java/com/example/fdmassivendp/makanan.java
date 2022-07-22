@@ -58,6 +58,23 @@ public class makanan extends AppCompatActivity {
                 startActivity(new Intent(makanan.this, profil.class));
             }
         });
+        ImageView pepesikan;
+        pepesikan = findViewById(R.id.pepesikan);
+        pepesikan.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(makanan.this, pepesikankembung.class));
+            }
+        });
+
+        ImageView nilaasam;
+        nilaasam = findViewById(R.id.nilaasam);
+        nilaasam.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(makanan.this, nila_asam_manis.class));
+            }
+        });
 
 
     }

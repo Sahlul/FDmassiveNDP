@@ -16,11 +16,33 @@ public class minuman extends AppCompatActivity {
         setContentView(R.layout.activity_minuman);
 
 
+        ImageView keminumandalgona;
+        keminumandalgona = findViewById(R.id.minumanmodern2);
+        keminumandalgona.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(minuman.this, dalgona_coffe.class));
+            }
+        });
 
 
+        ImageView keminumanblueocean;
+        keminumanblueocean = findViewById(R.id.minumanmodern3);
+        keminumanblueocean.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(minuman.this, blue_ocean.class));
+            }
+        });
 
-
-
+        ImageView keminumanorangeblueocean;
+        keminumanorangeblueocean = findViewById(R.id.minumanmodern1);
+        keminumanorangeblueocean.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(minuman.this, orangeblue_ocean.class));
+            }
+        });
 
         ImageView keminumancendoldwet;
         keminumancendoldwet = findViewById(R.id.minumancendoldawet);
