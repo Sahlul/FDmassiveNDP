@@ -49,8 +49,9 @@ public class profil extends AppCompatActivity {
     RecyclerView simpanresep;
     ArrayList<resep> list;
     DatabaseReference databaseReference;
+    TextView name;
     MyAdapter adapter;
-    FirebaseFirestore db = FirebaseFirestore.getInstance();
+    FirebaseFirestore resep = FirebaseFirestore.getInstance();
 
     @Override
     public void onBackPressed() {
@@ -67,13 +68,22 @@ public class profil extends AppCompatActivity {
 
         fauth = FirebaseAuth.getInstance();
         fstore = FirebaseFirestore.getInstance();
+        userId = fauth.getCurrentUser().getUid();
         storageReference = FirebaseStorage.getInstance().getReference();
 
         userId = fauth.getCurrentUser().getUid();
         user = fauth.getCurrentUser();
 
         databaseUsers = FirebaseDatabase.getInstance().getReference();
-        databaseresep = FirebaseDatabase.getInstance().getReference();
+        name = findViewById(R.id.textView15);
+
+        SharedPreferences sharedPref = getSharedPreferences("_USER",Context.MODE_PRIVATE);
+        String _name = sharedPref.getString("name", "");
+
+        name.setText(_name);
+
+
+
 
         StorageReference profileref = storageReference.child("user/"+fauth.getCurrentUser().getUid()+"/profile.jpg");
         profileref.getDownloadUrl().addOnSuccessListener(new OnSuccessListener<Uri>() {
@@ -87,25 +97,6 @@ public class profil extends AppCompatActivity {
         databaseresep = FirebaseDatabase.getInstance().getReference();
         list = new ArrayList<>();
         simpanresep.setLayoutManager(new LinearLayoutManager(this));
-
-        DocumentReference docRef = db.collection("resep").document(user.getEmail());
-        docRef.get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() {
-            @Override
-            public void onComplete(@NonNull Task<DocumentSnapshot> task) {
-                    if (task.isSuccessful()) {
-                        DocumentSnapshot document = task.getResult();
-                        if (document.exists()) {
-
-                            Log.e("_NAME", String.valueOf(document.getData()));
-
-
-                        }
-
-                    }
-
-            }
-
-        });
         adapter = new MyAdapter(this,list);
         simpanresep.setAdapter(adapter);
 
@@ -113,7 +104,6 @@ public class profil extends AppCompatActivity {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
                 for (DataSnapshot dataSnapshot : snapshot.getChildren()) {
-
                     resep resep = dataSnapshot.getValue(resep.class);
                     list.add(resep);
 
@@ -159,14 +149,6 @@ public class profil extends AppCompatActivity {
         });
 
 
-        /*ImageView ibtn23;
-        ibtn23= findViewById(R.id.imageView23);
-        ibtn23.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(profil.this,resep_lontong_medan.class));
-            }
-        });*/
 
         ImageView ibtn22;
         ibtn22= findViewById(R.id.imageView22);

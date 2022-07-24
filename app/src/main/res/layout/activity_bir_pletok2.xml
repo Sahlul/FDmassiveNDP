@@ -4,8 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/bckround"
-    tools:context=".bir_pletok">
+    tools:context=".bir_pletok"
+    android:background="@color/bckround">
+
 
     <ImageView
         android:id="@+id/imageView25"
@@ -20,7 +21,7 @@
         app:srcCompat="@drawable/birpletok" />
 
     <ListView
-        android:id="@+id/listreseptmpbacem"
+        android:id="@+id/listresepbirpletok"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginStart="10dp"

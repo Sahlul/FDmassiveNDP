@@ -78,15 +78,6 @@ public class tambahresep extends AppCompatActivity {
 
 
 
-        StorageReference profileref = storageReference.child("user/"+fauth.getCurrentUser().getUid()+"/profile.jpg");
-        profileref.getDownloadUrl().addOnSuccessListener(new OnSuccessListener<Uri>() {
-            @Override
-            public void onSuccess(Uri uri) {
-                Picasso.get().load(uri).into(tambahfotoresep);
-            }
-        });
-
-
         gantifotoprofil.setOnClickListener(new View.OnClickListener() { //bukagallery
             @Override
             public void onClick(View v) {
@@ -161,49 +152,14 @@ public class tambahresep extends AppCompatActivity {
             }
         });
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         ImageButton ibtn22;
-        ibtn22 = findViewById(R.id.imageButton22);
+        ibtn22 = findViewById(R.id.kehomescreen);
         ibtn22.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(tambahresep.this,home_screen.class));
             }
         });
-
 
         ImageButton ibtn21;
         ibtn21 = findViewById(R.id.imageButton21);
@@ -222,6 +178,17 @@ public class tambahresep extends AppCompatActivity {
                 startActivity(new Intent(tambahresep.this,profil.class));
             }
         });
+
+
+
+
+
+
+
+
+
+
+
 
 
 

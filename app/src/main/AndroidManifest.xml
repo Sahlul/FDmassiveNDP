@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FDmassiveNDP">
         <activity
+            android:name=".bajigur"
+            android:exported="false" />
+        <activity
+            android:name=".bir_pletok"
+            android:exported="false" />
+        <activity
             android:name=".orangeblue_ocean"
             android:exported="false" />
         <activity

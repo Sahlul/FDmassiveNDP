@@ -2,7 +2,9 @@ package com.example.fdmassivendp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
@@ -31,6 +33,7 @@ public class home_screen extends AppCompatActivity {
     StorageReference storageReference;
     DatabaseReference databaseUsers;
     ImageView jasonprofil;
+    TextView name;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,12 +45,19 @@ public class home_screen extends AppCompatActivity {
 
         fauth = FirebaseAuth.getInstance();
         fstore = FirebaseFirestore.getInstance();
+        userId = fauth.getCurrentUser().getUid();
         storageReference = FirebaseStorage.getInstance().getReference();
 
         userId = fauth.getCurrentUser().getUid();
         user = fauth.getCurrentUser();
 
         databaseUsers = FirebaseDatabase.getInstance().getReference();
+        name = findViewById(R.id.nama);
+
+        SharedPreferences sharedPref = getSharedPreferences("_USER",Context.MODE_PRIVATE);
+        String _name = sharedPref.getString("name", "");
+
+        name.setText(_name);
 
         StorageReference profileref = storageReference.child("user/"+fauth.getCurrentUser().getUid()+"/profile.jpg");
         profileref.getDownloadUrl().addOnSuccessListener(new OnSuccessListener<Uri>() {
@@ -56,6 +66,9 @@ public class home_screen extends AppCompatActivity {
                 Picasso.get().load(uri).into(jasonprofil);
             }
         });
+
+
+
 
 
         ImageButton rspmakanandanminuman;

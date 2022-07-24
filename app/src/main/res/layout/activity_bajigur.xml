@@ -4,9 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/bckround"
     tools:context=".bajigur">
-
     <ImageView
         android:id="@+id/imageView25"
         android:layout_width="324dp"
@@ -20,7 +18,7 @@
         app:srcCompat="@drawable/bajigur" />
 
     <ListView
-        android:id="@+id/listreseptmpbacem"
+        android:id="@+id/listresepbajigur"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginStart="10dp"

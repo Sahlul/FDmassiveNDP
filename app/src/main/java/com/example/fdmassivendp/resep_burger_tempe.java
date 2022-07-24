@@ -68,7 +68,7 @@ public class resep_burger_tempe extends AppCompatActivity {
 
     }
     public void openYoutube(View view) {
-        Intent appIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("vnd.youtube:sk89McTHi-yo"));
+        Intent appIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("vnd.youtube:k89McTHi-yo"));
         Intent webIntent = new Intent(Intent.ACTION_VIEW,
                 Uri.parse("http://www.youtube.com/watch?v=k89McTHi-yo"));
         try {

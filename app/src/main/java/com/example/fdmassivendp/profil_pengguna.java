@@ -77,26 +77,6 @@ public class profil_pengguna extends AppCompatActivity {
         email.setText(_email);
         notelp.setText(_notelp);
 
-        /*FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();//mendapatkan data dari  dari email yg login
-        Log.e("users", String.valueOf(user));
-        DocumentReference docRef = db.collection("users").document(user.getEmail());
-        docRef.get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() {
-            @Override
-            public void onComplete(@NonNull Task<DocumentSnapshot> task) {
-                if (task.isSuccessful()) {
-                    DocumentSnapshot document = task.getResult();
-                    if (document.exists()) {
-                        name.setText(document.getData().get("nama").toString());
-                        Log.d("berhasil", "DocumentSnapshot data: " + document.getData());
-                    } else {
-                        Log.d("tidak ada data", "No such document");
-                    }
-                } else {
-                    Log.d("gagal", "get failed with ", task.getException());
-                }
-            }
-        });
-*/
 
 
 

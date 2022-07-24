@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
+import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
@@ -44,13 +45,13 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder>{
     }
 
     public static class MyViewHolder extends RecyclerView.ViewHolder{
-        EditText judul,resep,bahan,langkah;
+        TextView judul,resep,bahan,langkah;
         public MyViewHolder(@NonNull View itemView){
             super(itemView);
-            judul = itemView.findViewById(R.id.jdulmasakan);
-            resep = itemView.findViewById(R.id.ketresep);
-            bahan = itemView.findViewById(R.id.formbahan);
-            langkah = itemView.findViewById(R.id.lngkahpembuatan);
+            judul = itemView.findViewById(R.id.textjudul);
+            resep = itemView.findViewById(R.id.textketresep);
+            bahan = itemView.findViewById(R.id.textbahan);
+            langkah = itemView.findViewById(R.id.textlangkah);
         }
     }
 }

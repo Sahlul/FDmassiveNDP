@@ -10,8 +10,8 @@
 
     <ImageView
         android:id="@+id/jasonprofil"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="52dp"
+        android:layout_height="57dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.069"
@@ -22,8 +22,8 @@
 
 
     <TextView
-        android:id="@+id/textView15"
-        android:text="Jason Maulana"
+        android:id="@+id/namausrdireseptrbru"
+        android:text=""
         android:textColor="#000000"
         android:textSize="15sp"
         android:layout_width="match_parent"
@@ -51,6 +51,7 @@
         android:layout_marginTop="180dp"
         android:layout_marginEnd="10dp"
         android:layout_marginRight="20dp"
+        android:layout_marginBottom="60dp"
         app:layout_constraintVertical_bias="0.991">
 
         <LinearLayout
@@ -130,10 +131,10 @@
                 android:id="@+id/brgtempe"
                 android:layout_width="324dp"
                 android:layout_height="166dp"
-                android:layout_marginStart="33dp"
+                android:layout_marginStart="20.5dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="35dp"
-                android:layout_marginEnd="10dp"
+                android:layout_marginEnd="20dp"
                 android:layout_marginRight="20dp"
                 app:srcCompat="@drawable/burgertempe" />
 
@@ -166,10 +167,10 @@
                 android:id="@+id/timikankkp"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginStart="10dp"
+                android:layout_marginStart="20dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="35dp"
-                android:layout_marginEnd="10dp"
+                android:layout_marginEnd="25dp"
                 android:layout_marginRight="20dp"
                 app:srcCompat="@drawable/timikan2" />
 
@@ -179,8 +180,9 @@
                 android:layout_marginStart="5dp"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="-1dp"
-                android:layout_marginEnd="5dp"
+                android:layout_marginEnd="10dp"
                 android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
                 app:srcCompat="@drawable/rectangle" />
 
             <TextView
@@ -189,7 +191,7 @@
                 android:layout_marginStart="35dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="-40dp"
-                android:layout_marginEnd="10dp"
+                android:layout_marginEnd="100dp"
                 android:layout_marginRight="20dp"
                 android:textSize="20sp"
                 android:text="Tim Ikan Kakap"

@@ -62,6 +62,24 @@ public class rekomendasi_minuman_tradisional extends AppCompatActivity {
             }
         });
 
+        ImageView minumanbajigur;
+        minumanbajigur= findViewById(R.id.minumanbajigur);
+        minumanbajigur.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(rekomendasi_minuman_tradisional.this,bajigur.class));
+            }
+        });
+
+        ImageView minumanbirpletok;
+        minumanbirpletok= findViewById(R.id.minumanbirpletok);
+        minumanbirpletok.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(rekomendasi_minuman_tradisional.this,bir_pletok.class));
+            }
+        });
+
 
 
     }

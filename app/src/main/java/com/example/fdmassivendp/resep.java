@@ -1,20 +1,24 @@
 package com.example.fdmassivendp;
 
+import com.google.firebase.firestore.IgnoreExtraProperties;
+
+@IgnoreExtraProperties
 public class resep {
 
     private String judulmasakan;
     private String ketresep;
     private String formbahan;
     private String langkahpembuatan;
+
     public resep() {
 
     }
 
-    public resep(String jdmasakan, String keteranganrsp, String bhanbhan, String langkahpmbtn) {
-        this.judulmasakan = jdmasakan;
-        this.ketresep = keteranganrsp;
-        this.formbahan = bhanbhan;
-        this.langkahpembuatan = langkahpmbtn;
+    public resep(String judulmasakan, String ketresep, String formbahan, String langkahpembuatan) {
+        this.judulmasakan = judulmasakan;
+        this.ketresep = ketresep;
+        this.formbahan = formbahan;
+        this.langkahpembuatan = langkahpembuatan;
     }
 
     public String getJudulmasakan() {

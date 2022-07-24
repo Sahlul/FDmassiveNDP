@@ -10,8 +10,8 @@
 
     <ImageView
         android:id="@+id/jasonprofil"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="52dp"
+        android:layout_height="57dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.128"
@@ -21,10 +21,10 @@
         app:srcCompat="@drawable/poto_jason" />
 
     <TextView
-        android:id="@+id/textView15"
+        android:id="@+id/namausrdiikankkp"
         android:layout_width="154dp"
         android:layout_height="17dp"
-        android:text="Jason Maulana"
+        android:text=""
         android:textColor="#000000"
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -74,6 +74,7 @@
         android:layout_marginTop="230dp"
         android:layout_marginEnd="10dp"
         android:layout_marginRight="20dp"
+        android:layout_marginBottom="80dp"
         app:layout_constraintVertical_bias="0.991">
 
         <LinearLayout
