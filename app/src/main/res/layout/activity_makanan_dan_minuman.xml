@@ -151,7 +151,7 @@
         android:id="@+id/namausrdimakdanmin"
         android:layout_width="153dp"
         android:layout_height="28dp"
-        android:text="Jason Maulana"
+        android:text=""
         android:textColor="#000000"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
